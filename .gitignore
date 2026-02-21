@@ -1,2 +1,6 @@
 docs/
 .claude/
+config/config.json
+results/
+*.pyc
+__pycache__/

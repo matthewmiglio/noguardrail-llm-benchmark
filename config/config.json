@@ -1,0 +1,8 @@
+{
+  "model_download_dir": "H:/gen-benchmark/models/dolphin_models",
+  "max_tokens": 512,
+  "temperature": 0.7,
+  "n_ctx": 2048,
+  "n_gpu_layers": -1,
+  "system_prompt": ""
+}

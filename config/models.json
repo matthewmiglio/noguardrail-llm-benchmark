@@ -1,0 +1,3782 @@
+{
+  "models": [
+    {
+      "id": "dolphin3.0-llama3.2-1b",
+      "repo_id": "Notenufftime/Dolphin3.0-Llama3.2-1B-Q8_0-GGUF",
+      "format": "gguf",
+      "filename_pattern": "Q8_0",
+      "params": "1B",
+      "size_category": "small",
+      "base": "Llama-3.2",
+      "enabled": true
+    },
+    {
+      "id": "corrupted-dolphin-3.2-1b",
+      "repo_id": "Novaciano/Corrupted_Dolphin-3.2-1B",
+      "format": "transformers",
+      "filename_pattern": "",
+      "params": "1B",
+      "size_category": "small",
+      "base": "Llama-3.2",
+      "enabled": true
+    },
+    {
+      "id": "heretic-dolphin3.0-qwen2.5-1.5b",
+      "repo_id": "hereticness/Heretic-Dolphin3.0-Qwen2.5-1.5B",
+      "format": "transformers",
+      "filename_pattern": "",
+      "params": "1.5B",
+      "size_category": "small",
+      "base": "Qwen-2.5",
+      "enabled": true
+    },
+    {
+      "id": "heretic-dolphin3.0-qwen2.5-3b",
+      "repo_id": "mradermacher/Heretic-Dolphin3.0-Qwen2.5-3b-GGUF",
+      "format": "gguf",
+      "filename_pattern": "Q4_K_M",
+      "params": "3B",
+      "size_category": "small",
+      "base": "Qwen-2.5",
+      "enabled": true
+    },
+    {
+      "id": "lfm2-dolphin-6b-french",
+      "repo_id": "Odontome/LFM2-2-6B-Exp-Fr-dolphin-GGUF",
+      "format": "gguf",
+      "filename_pattern": "Q4_K_M",
+      "params": "3B",
+      "size_category": "small",
+      "base": "LFM2",
+      "enabled": true,
+      "notes": "French-focused model"
+    },
+    {
+      "id": "dolphin-2.9.2-qwen2-7b",
+      "repo_id": "Unimjafa/dolphin-2.9.2-qwen2-7b-gguf",
+      "format": "gguf",
+      "filename_pattern": "Q4_K_M",
+      "params": "7B",
+      "size_category": "medium",
+      "base": "Qwen-2",
+      "enabled": true
+    },
+    {
+      "id": "dolphin-cybersec-7b",
+      "repo_id": "frEEtom3/dolphin-cybersec",
+      "format": "transformers",
+      "filename_pattern": "",
+      "params": "7B",
+      "size_category": "medium",
+      "base": "Unknown",
+      "enabled": true,
+      "notes": "Cybersecurity-focused dolphin model"
+    },
+    {
+      "id": "dolphin-x1-8b",
+      "repo_id": "dphn/Dolphin-X1-8B-GGUF",
+      "format": "gguf",
+      "filename_pattern": "Q4_K_M",
+      "params": "8B",
+      "size_category": "medium",
+      "base": "Llama-3",
+      "enabled": true,
+      "notes": "Deduped: dphn/Dolphin-X1-8B, dphn/Dolphin-X1-8B-FP8, mradermacher GGUF"
+    },
+    {
+      "id": "dolphin-2.9-llama3-8b",
+      "repo_id": "Izah21yey/dolphin-2.9-llama3-8b",
+      "format": "transformers",
+      "filename_pattern": "",
+      "params": "8B",
+      "size_category": "medium",
+      "base": "Llama-3",
+      "enabled": true
+    },
+    {
+      "id": "dolphin3.0-llama3.1-8b",
+      "repo_id": "Andycurrent/Dolphin3.0-Llama3.1-8B",
+      "format": "transformers",
+      "filename_pattern": "",
+      "params": "8B",
+      "size_category": "medium",
+      "base": "Llama-3.1",
+      "enabled": true,
+      "notes": "Deduped: Juregonso/Dolphin3.0-Llama3.1-8B"
+    },
+    {
+      "id": "dolphin-llama3-8b-portuguese",
+      "repo_id": "adalberto-temp/llama-3-8b-dolphin-portuguese-v0.3-SDFT",
+      "format": "transformers",
+      "filename_pattern": "",
+      "params": "8B",
+      "size_category": "medium",
+      "base": "Llama-3",
+      "enabled": true,
+      "notes": "Portuguese language model"
+    },
+    {
+      "id": "dolphin-xgen-rl-11b",
+      "repo_id": "mradermacher/Dolphin-Xgen-RL-GGUF",
+      "format": "gguf",
+      "filename_pattern": "Q4_K_M",
+      "params": "11B",
+      "size_category": "medium",
+      "base": "Xgen",
+      "enabled": true,
+      "notes": "Deduped: dphn/Dolphin-Xgen-RL (non-GGUF original)"
+    },
+    {
+      "id": "laser-dolphin-mixtral-2x7b",
+      "repo_id": "jmb95/laser-dolphin-mixtral-2x7b-dpo-GGUF",
+      "format": "gguf",
+      "filename_pattern": "Q4_K_M",
+      "params": "13B",
+      "size_category": "medium",
+      "base": "Mixtral-2x7B",
+      "enabled": true
+    },
+    {
+      "id": "dolphin-gpt-oss-20b",
+      "repo_id": "grandell/dolphin-gpt-oss-20b",
+      "format": "transformers",
+      "filename_pattern": "",
+      "params": "21B",
+      "size_category": "large",
+      "base": "GPT",
+      "enabled": true
+    },
+    {
+      "id": "dolphin3.0-mistral-24b",
+      "repo_id": "ManuelZnnmc/Dolphin3.0-Mistral-24B",
+      "format": "transformers",
+      "filename_pattern": "",
+      "params": "24B",
+      "size_category": "large",
+      "base": "Mistral-24B",
+      "enabled": true
+    },
+    {
+      "id": "dolphin-mistral-24b-venice",
+      "repo_id": "professorf/Dolphin-Mistral-24B-Venice-Edition-gguf",
+      "format": "gguf",
+      "filename_pattern": "Q4_K_M",
+      "params": "24B",
+      "size_category": "large",
+      "base": "Mistral-24B",
+      "enabled": true,
+      "notes": "Deduped: ManuelZnnmc non-GGUF, dphn exl2, mradermacher fp16-i1-GGUF"
+    },
+    {
+      "id": "dolphin-mistral-24b-venice-heretic-2",
+      "repo_id": "askalgore/Dolphin-Mistral-24B-Venice-Edition-heretic-2",
+      "format": "transformers",
+      "filename_pattern": "",
+      "params": "24B",
+      "size_category": "large",
+      "base": "Mistral-24B",
+      "enabled": true,
+      "notes": "Heretic-2 fine-tune variant"
+    },
+    {
+      "id": "dolphin-mistral-glm-24b-uncensored",
+      "repo_id": "mradermacher/Dolphin-Mistral-GLM-4.7-Flash-24B-Venice-Edition-Thinking-Uncensored-i1-GGUF",
+      "format": "gguf",
+      "filename_pattern": "Q4_K_M",
+      "params": "24B",
+      "size_category": "large",
+      "base": "Mistral-GLM-24B",
+      "enabled": true,
+      "notes": "Deduped: DavidAU original, mradermacher non-i1 GGUF"
+    },
+    {
+      "id": "anita-next-24b-dolphin-italian",
+      "repo_id": "m-polignano/ANITA-NEXT-24B-Dolphin-Mistral-UNCENSORED-ITA-GGUF",
+      "format": "gguf",
+      "filename_pattern": "Q4_K_M",
+      "params": "24B",
+      "size_category": "large",
+      "base": "Mistral-24B",
+      "enabled": true,
+      "notes": "Italian uncensored model. Deduped: mradermacher i1-GGUF"
+    },
+    {
+      "id": "dolphin-thinker-preview-24b",
+      "repo_id": "mradermacher/Dolphin-Thinker-Preview-GGUF",
+      "format": "gguf",
+      "filename_pattern": "Q4_K_M",
+      "params": "24B",
+      "size_category": "large",
+      "base": "Mistral-24B",
+      "enabled": true
+    },
+    {
+      "id": "dolphin-2.9.1-yi-34b-heretic",
+      "repo_id": "richardyoung/dolphin-2.9.1-yi-1.5-34b-heretic",
+      "format": "transformers",
+      "filename_pattern": "",
+      "params": "34B",
+      "size_category": "large",
+      "base": "Yi-1.5",
+      "enabled": true
+    },
+    {
+      "id": "dolphin-2.7-mixtral-8x7b",
+      "repo_id": "noctrex/dolphin-2.7-mixtral-8x7b-MXFP4_MOE-GGUF",
+      "format": "gguf",
+      "filename_pattern": "MXFP4",
+      "params": "47B",
+      "size_category": "xlarge",
+      "base": "Mixtral-8x7B",
+      "enabled": true
+    },
+    {
+      "id": "dolphin-2.5-mixtral-8x7b",
+      "repo_id": "MCMILLiION/dolphin-2.5-mixtral-8x7b-GGUF",
+      "format": "gguf",
+      "filename_pattern": "Q4_K_M",
+      "params": "47B",
+      "size_category": "xlarge",
+      "base": "Mixtral-8x7B",
+      "enabled": true
+    },
+    {
+      "id": "dolphin-2.9.1-llama3-70b",
+      "repo_id": "Jhon676/dolphin-2.9.1-llama-3-70b",
+      "format": "transformers",
+      "filename_pattern": "",
+      "params": "71B",
+      "size_category": "xlarge",
+      "base": "Llama-3",
+      "enabled": true
+    },
+    {
+      "id": "dolphin-eva-fusion-llama3.3-70b",
+      "repo_id": "mradermacher/Llama_3.x_70b_L3.3-Dolphin-Eva_fusion_v2-i1-GGUF",
+      "format": "gguf",
+      "filename_pattern": "Q4_K_M",
+      "params": "71B",
+      "size_category": "xlarge",
+      "base": "Llama-3.3",
+      "enabled": true
+    },
+    {
+      "id": "dolphin-qwen2-72b",
+      "repo_id": "LainBear/dolphin-qwen2-72b-lainbear",
+      "format": "transformers",
+      "filename_pattern": "",
+      "params": "72B",
+      "size_category": "xlarge",
+      "base": "Qwen-2",
+      "enabled": true
+    },
+    {
+      "id": "dolphin-x1-llama3.1-405b",
+      "repo_id": "mradermacher/Dolphin-X1-Llama-3.1-405B-GGUF",
+      "format": "gguf",
+      "filename_pattern": "Q4_K_M",
+      "params": "405B",
+      "size_category": "xlarge",
+      "base": "Llama-3.1",
+      "enabled": true
+    },
+    {
+      "id": "safety-dolphin3.0-llama3.2-1b",
+      "repo_id": "HarethahMo/Dolphin3.0-Llama3.2-1B-AddedSafety-NoPrompt",
+      "format": "transformers",
+      "filename_pattern": "",
+      "params": "1B",
+      "size_category": "small",
+      "base": "Llama-3.2",
+      "enabled": true,
+      "notes": "Safety-enhanced variant for comparison"
+    },
+    {
+      "id": "safety-dolphin3.0-qwen2.5-3b",
+      "repo_id": "HarethahMo/Dolphin3.0-Qwen2.5-3B-AddedSafety-NoPrompt",
+      "format": "transformers",
+      "filename_pattern": "",
+      "params": "3B",
+      "size_category": "small",
+      "base": "Qwen-2.5",
+      "enabled": true,
+      "notes": "Safety-enhanced variant for comparison"
+    },
+    {
+      "id": "safety-dolphin3.0-llama3.1-8b",
+      "repo_id": "HarethahMo/Dolphin3.0-Llama3.1-8B-AddedSafety-NoPrompt",
+      "format": "transformers",
+      "filename_pattern": "",
+      "params": "8B",
+      "size_category": "medium",
+      "base": "Llama-3.1",
+      "enabled": true,
+      "notes": "Safety-enhanced variant for comparison"
+    },
+    {
+      "id": "safety-dolphin3.0-mistral-24b",
+      "repo_id": "HarethahMo/Dolphin3.0-Mistral-24B-AddedSafety-NoPrompt",
+      "format": "transformers",
+      "filename_pattern": "",
+      "params": "24B",
+      "size_category": "large",
+      "base": "Mistral-24B",
+      "enabled": true,
+      "notes": "Safety-enhanced variant for comparison"
+    },
+    {
+      "id": "openai-gpt-oss-20b-abliterated-uncensored-neo-imatrix-gguf",
+      "repo_id": "DavidAU/OpenAi-GPT-oss-20b-abliterated-uncensored-NEO-Imatrix-gguf",
+      "format": "gguf",
+      "filename_pattern": "Q4_K_M",
+      "params": "21B",
+      "size_category": "large",
+      "base": "GPT-oss",
+      "enabled": true
+    },
+    {
+      "id": "openai-gpt-oss-20b-claude-4-5-opus-heretic-uncensored",
+      "repo_id": "mradermacher/OpenAI-gpt-oss-20B-Claude-4.5-Opus-Heretic-Uncensored-i1-GGUF",
+      "format": "gguf",
+      "filename_pattern": "Q4_K_M",
+      "params": "21B",
+      "size_category": "large",
+      "base": "GPT-oss",
+      "enabled": true
+    },
+    {
+      "id": "openai-gpt-oss-20b-heretic-uncensored-neo-imatrix-gguf",
+      "repo_id": "DavidAU/OpenAi-GPT-oss-20b-HERETIC-uncensored-NEO-Imatrix-gguf",
+      "format": "gguf",
+      "filename_pattern": "Q4_K_M",
+      "params": "21B",
+      "size_category": "large",
+      "base": "GPT-oss",
+      "enabled": true
+    },
+    {
+      "id": "openai-gpt-oss-20b-instruct-heretic-uncensored",
+      "repo_id": "mradermacher/OpenAI-gpt-oss-20B-INSTRUCT-Heretic-Uncensored-i1-GGUF",
+      "format": "gguf",
+      "filename_pattern": "Q4_K_M",
+      "params": "21B",
+      "size_category": "large",
+      "base": "GPT-oss",
+      "enabled": true
+    },
+    {
+      "id": "gpt-oss-20b-uncensored",
+      "repo_id": "aoxo/gpt-oss-20b-uncensored",
+      "format": "transformers",
+      "filename_pattern": "",
+      "params": "21B",
+      "size_category": "large",
+      "base": "GPT-oss",
+      "enabled": true
+    },
+    {
+      "id": "gptoss-120b-uncensored-hauhaucs-aggressive",
+      "repo_id": "HauhauCS/GPTOSS-120B-Uncensored-HauhauCS-Aggressive",
+      "format": "transformers",
+      "filename_pattern": "",
+      "params": "117B",
+      "size_category": "xlarge",
+      "base": "GPT-oss",
+      "enabled": true
+    },
+    {
+      "id": "gpt-oss-20b-uncensored-hauhaucs-aggressive",
+      "repo_id": "HauhauCS/GPT-OSS-20B-Uncensored-HauhauCS-Aggressive",
+      "format": "transformers",
+      "filename_pattern": "",
+      "params": "21B",
+      "size_category": "large",
+      "base": "GPT-oss",
+      "enabled": true
+    },
+    {
+      "id": "huizimao-gpt-oss-120b-uncensored",
+      "repo_id": "bartowski/huizimao_gpt-oss-120b-uncensored-bf16-GGUF",
+      "format": "gguf",
+      "filename_pattern": "Q4_K_M",
+      "params": "117B",
+      "size_category": "xlarge",
+      "base": "GPT-oss",
+      "enabled": true
+    },
+    {
+      "id": "openai-gpt-oss-20b-claude-4-5-opus-heretic-uncensored-2",
+      "repo_id": "DavidAU/OpenAI-gpt-oss-20B-Claude-4.5-Opus-Heretic-Uncensored",
+      "format": "transformers",
+      "filename_pattern": "",
+      "params": "21B",
+      "size_category": "large",
+      "base": "GPT-oss",
+      "enabled": true
+    },
+    {
+      "id": "openai-gpt-oss-20b-gpt5-1-5-2-distill-heretic-uncensored-mxfp4",
+      "repo_id": "DavidAU/OpenAI-gpt-oss-20B-GPT5.1-5.2-DISTILL-Heretic-Uncensored-MXFP4",
+      "format": "mxfp4",
+      "filename_pattern": "",
+      "params": "2B",
+      "size_category": "small",
+      "base": "GPT-oss",
+      "enabled": true
+    },
+    {
+      "id": "openai-gpt-oss-20b-instruct-heretic-uncensored-2",
+      "repo_id": "DavidAU/OpenAI-gpt-oss-20B-INSTRUCT-Heretic-Uncensored",
+      "format": "transformers",
+      "filename_pattern": "",
+      "params": "21B",
+      "size_category": "large",
+      "base": "GPT-oss",
+      "enabled": true
+    },
+    {
+      "id": "openai-gpt-oss-20b-instruct-heretic-uncensored-mxfp4",
+      "repo_id": "DavidAU/OpenAI-gpt-oss-20B-INSTRUCT-Heretic-Uncensored-MXFP4",
+      "format": "mxfp4",
+      "filename_pattern": "",
+      "params": "2B",
+      "size_category": "small",
+      "base": "GPT-oss",
+      "enabled": true
+    },
+    {
+      "id": "glm-4-7-flash-uncensored-heretic-neo-code-imatrix-max",
+      "repo_id": "DavidAU/GLM-4.7-Flash-Uncensored-Heretic-NEO-CODE-Imatrix-MAX-GGUF",
+      "format": "gguf",
+      "filename_pattern": "Q4_K_M",
+      "params": "30B",
+      "size_category": "large",
+      "base": "GLM-4.7",
+      "enabled": true
+    },
+    {
+      "id": "glm-4-7-flash-grande-heretic-uncensored-42b-a3b",
+      "repo_id": "DavidAU/GLM-4.7-Flash-Grande-Heretic-UNCENSORED-42B-A3B-GGUF",
+      "format": "gguf",
+      "filename_pattern": "Q4_K_M",
+      "params": "42B",
+      "size_category": "large",
+      "base": "GLM-4.7",
+      "enabled": true
+    },
+    {
+      "id": "glm-4-7-flash-uncensored-hauhaucs-balanced",
+      "repo_id": "HauhauCS/GLM-4.7-Flash-Uncensored-HauhauCS-Balanced",
+      "format": "transformers",
+      "filename_pattern": "",
+      "params": "30B",
+      "size_category": "large",
+      "base": "GLM-4.7",
+      "enabled": true
+    },
+    {
+      "id": "glm-4-7-flash-uncensored-heretic-neo-code-imatrix-max-2",
+      "repo_id": "wegrow/GLM-4.7-Flash-Uncensored-Heretic-NEO-CODE-Imatrix-MAX-GGUF",
+      "format": "gguf",
+      "filename_pattern": "Q4_K_M",
+      "params": "30B",
+      "size_category": "large",
+      "base": "GLM-4.7",
+      "enabled": true
+    },
+    {
+      "id": "gemma-the-writer-n-restless-quill-10b-uncensored",
+      "repo_id": "DavidAU/Gemma-The-Writer-N-Restless-Quill-10B-Uncensored-GGUF",
+      "format": "gguf",
+      "filename_pattern": "Q4_K_M",
+      "params": "10B",
+      "size_category": "medium",
+      "base": "Gemma",
+      "enabled": true
+    },
+    {
+      "id": "gemma-3-12b-it-uncensored",
+      "repo_id": "Andycurrent/gemma-3-12b-it-uncensored-GGUF",
+      "format": "gguf",
+      "filename_pattern": "Q4_K_M",
+      "params": "12B",
+      "size_category": "medium",
+      "base": "Gemma-3",
+      "enabled": true
+    },
+    {
+      "id": "gemma-3-it-4b-uncensored-dbl-x",
+      "repo_id": "DavidAU/Gemma-3-it-4B-Uncensored-DBL-X-GGUF",
+      "format": "gguf",
+      "filename_pattern": "Q4_K_M",
+      "params": "4B",
+      "size_category": "medium",
+      "base": "Gemma-3",
+      "enabled": true
+    },
+    {
+      "id": "gemma-3-27b-it-gemini-heretic-uncensored-deeper-reasoning-series2",
+      "repo_id": "mradermacher/Gemma-3-27b-it-Gemini-Heretic-Uncensored-Deeper-Reasoning-Series2-i1-GGUF",
+      "format": "gguf",
+      "filename_pattern": "Q4_K_M",
+      "params": "27B",
+      "size_category": "large",
+      "base": "Gemma-3",
+      "enabled": true
+    },
+    {
+      "id": "gemma-3-1b-it-glm-4-7-flash-heretic-uncensored-thinking-gguf",
+      "repo_id": "Andycurrent/Gemma-3-1B-it-GLM-4.7-Flash-Heretic-Uncensored-Thinking_GGUF",
+      "format": "transformers",
+      "filename_pattern": "",
+      "params": "1.0B",
+      "size_category": "small",
+      "base": "Gemma-3",
+      "enabled": true
+    },
+    {
+      "id": "gemma-3-prompt-coder-270m-it-uncensored",
+      "repo_id": "gss1147/Gemma-3-Prompt-Coder-270m-it-Uncensored",
+      "format": "transformers",
+      "filename_pattern": "",
+      "params": "unknown",
+      "size_category": "medium",
+      "base": "Gemma-3",
+      "enabled": true
+    },
+    {
+      "id": "gemma-2b-uncensored-v1",
+      "repo_id": "sirev/Gemma-2b-Uncensored-v1",
+      "format": "transformers",
+      "filename_pattern": "",
+      "params": "3B",
+      "size_category": "small",
+      "base": "Gemma-2",
+      "enabled": true
+    },
+    {
+      "id": "qwen2-5-7b-instruct-uncensored",
+      "repo_id": "Orion-zhen/Qwen2.5-7B-Instruct-Uncensored",
+      "format": "transformers",
+      "filename_pattern": "",
+      "params": "8B",
+      "size_category": "medium",
+      "base": "Qwen-2.5",
+      "enabled": true
+    },
+    {
+      "id": "qwen3-30b-a3b-gemini-pro-high-reasoning-2507-abliterated-uncensored",
+      "repo_id": "mradermacher/Qwen3-30B-A3B-Gemini-Pro-High-Reasoning-2507-ABLITERATED-UNCENSORED-i1-GGUF",
+      "format": "gguf",
+      "filename_pattern": "Q4_K_M",
+      "params": "31B",
+      "size_category": "large",
+      "base": "Qwen-3",
+      "enabled": true
+    },
+    {
+      "id": "qwen3-next-80b-a3b-thinking-sft-uncensored",
+      "repo_id": "mradermacher/Qwen3-Next-80B-A3B-Thinking-SFT-Uncensored-i1-GGUF",
+      "format": "gguf",
+      "filename_pattern": "Q4_K_M",
+      "params": "80B",
+      "size_category": "xlarge",
+      "base": "Qwen-3",
+      "enabled": true
+    },
+    {
+      "id": "qwen3-48b-a4b-savant-commander-distill-12x-closed-open-heretic-uncensored",
+      "repo_id": "DavidAU/Qwen3-48B-A4B-Savant-Commander-Distill-12X-Closed-Open-Heretic-Uncensored-GGUF",
+      "format": "gguf",
+      "filename_pattern": "Q4_K_M",
+      "params": "34B",
+      "size_category": "large",
+      "base": "Qwen-3",
+      "enabled": true
+    },
+    {
+      "id": "qwen2-5-7b-instruct-uncensored-gguf",
+      "repo_id": "Andycurrent/Qwen2.5-7B-Instruct-Uncensored_GGUF",
+      "format": "transformers",
+      "filename_pattern": "",
+      "params": "8B",
+      "size_category": "medium",
+      "base": "Qwen-2.5",
+      "enabled": true
+    },
+    {
+      "id": "qwen3-30b-a3b-claude-4-5-opus-high-reasoning-2507-abliterated-uncensored-v2-q4-k",
+      "repo_id": "kainah/Qwen3-30B-A3B-Claude-4.5-Opus-High-Reasoning-2507-ABLITERATED-UNCENSORED-V2-Q4_K_M-GGUF",
+      "format": "gguf",
+      "filename_pattern": "Q4_K_M",
+      "params": "31B",
+      "size_category": "large",
+      "base": "Qwen-3",
+      "enabled": true
+    },
+    {
+      "id": "qwen3-42b-a3b-2507-thinking-abliterated-uncensored-total-recall-v2-medium-master",
+      "repo_id": "DavidAU/Qwen3-42B-A3B-2507-Thinking-Abliterated-uncensored-TOTAL-RECALL-v2-Medium-MASTER-CODER",
+      "format": "transformers",
+      "filename_pattern": "",
+      "params": "42B",
+      "size_category": "large",
+      "base": "Qwen-3",
+      "enabled": true
+    },
+    {
+      "id": "qwen3-next-80b-a3b-thinking-grpo-uncensored-gguf",
+      "repo_id": "puwaer/Qwen3-Next-80B-A3B-Thinking-GRPO-Uncensored-gguf",
+      "format": "gguf",
+      "filename_pattern": "Q4_K_M",
+      "params": "80B",
+      "size_category": "xlarge",
+      "base": "Qwen-3",
+      "enabled": true
+    },
+    {
+      "id": "qwen3-4b-bf16-uncensored",
+      "repo_id": "mradermacher/Qwen3_4B-bf16-uncensored-i1-GGUF",
+      "format": "gguf",
+      "filename_pattern": "Q4_K_M",
+      "params": "4B",
+      "size_category": "medium",
+      "base": "Qwen-3",
+      "enabled": true
+    },
+    {
+      "id": "suri-qwen-3-1-4b-uncensored",
+      "repo_id": "mradermacher/Suri-Qwen-3.1-4B-Uncensored-i1-GGUF",
+      "format": "gguf",
+      "filename_pattern": "Q4_K_M",
+      "params": "4B",
+      "size_category": "medium",
+      "base": "Unknown",
+      "enabled": true
+    },
+    {
+      "id": "qwen3-0-6b-heretic-abliterated-uncensored",
+      "repo_id": "mradermacher/Qwen3-0.6B-heretic-abliterated-uncensored-i1-GGUF",
+      "format": "gguf",
+      "filename_pattern": "Q4_K_M",
+      "params": "0.6B",
+      "size_category": "small",
+      "base": "Qwen-3",
+      "enabled": true
+    },
+    {
+      "id": "qwen3-30b-a3b-claude-4-5-opus-high-reasoning-2507-abliterated-uncensored-v2",
+      "repo_id": "DavidAU/Qwen3-30B-A3B-Claude-4.5-Opus-High-Reasoning-2507-ABLITERATED-UNCENSORED-V2",
+      "format": "transformers",
+      "filename_pattern": "",
+      "params": "31B",
+      "size_category": "large",
+      "base": "Qwen-3",
+      "enabled": true
+    },
+    {
+      "id": "qwen2-5-1-5b-vibethinker-heretic-uncensored-abliterated",
+      "repo_id": "mradermacher/Qwen2.5-1.5B-VibeThinker-heretic-uncensored-abliterated-GGUF",
+      "format": "gguf",
+      "filename_pattern": "Q4_K_M",
+      "params": "2B",
+      "size_category": "small",
+      "base": "Qwen-2.5",
+      "enabled": true
+    },
+    {
+      "id": "qwen3-4b-bf16-uncensored-2",
+      "repo_id": "mradermacher/Qwen3_4B-bf16-uncensored-GGUF",
+      "format": "gguf",
+      "filename_pattern": "Q4_K_M",
+      "params": "4B",
+      "size_category": "medium",
+      "base": "Qwen-3",
+      "enabled": true
+    },
+    {
+      "id": "qwen3-4b-thinking-2507-grpo-uncensored-v2-gguf",
+      "repo_id": "puwaer/Qwen3-4B-Thinking-2507-GRPO-Uncensored-V2-gguf",
+      "format": "gguf",
+      "filename_pattern": "Q4_K_M",
+      "params": "4B",
+      "size_category": "medium",
+      "base": "Qwen-3",
+      "enabled": true
+    },
+    {
+      "id": "qwen3-0-6b-heretic-abliterated-uncensored-2",
+      "repo_id": "mradermacher/Qwen3-0.6B-heretic-abliterated-uncensored-GGUF",
+      "format": "gguf",
+      "filename_pattern": "Q4_K_M",
+      "params": "0.6B",
+      "size_category": "small",
+      "base": "Qwen-3",
+      "enabled": true
+    },
+    {
+      "id": "qwen3-4b-thinking-2507-grpo-uncensored-gguf",
+      "repo_id": "puwaer/Qwen3-4B-Thinking-2507-GRPO-Uncensored-gguf",
+      "format": "gguf",
+      "filename_pattern": "Q4_K_M",
+      "params": "4B",
+      "size_category": "medium",
+      "base": "Qwen-3",
+      "enabled": true
+    },
+    {
+      "id": "qwen3-0-6b-heretic-abliterated-uncensored-3",
+      "repo_id": "DavidAU/Qwen3-0.6B-heretic-abliterated-uncensored",
+      "format": "transformers",
+      "filename_pattern": "",
+      "params": "0.6B",
+      "size_category": "small",
+      "base": "Qwen-3",
+      "enabled": true
+    },
+    {
+      "id": "qwen3-30b-a3b-gemini-pro-high-reasoning-2507-abliterated-uncensored-2",
+      "repo_id": "DavidAU/Qwen3-30B-A3B-Gemini-Pro-High-Reasoning-2507-ABLITERATED-UNCENSORED",
+      "format": "transformers",
+      "filename_pattern": "",
+      "params": "31B",
+      "size_category": "large",
+      "base": "Qwen-3",
+      "enabled": true
+    },
+    {
+      "id": "qwen3-next-80b-a3b-thinking-grpo-uncensored",
+      "repo_id": "puwaer/Qwen3-Next-80B-A3B-Thinking-GRPO-Uncensored",
+      "format": "transformers",
+      "filename_pattern": "",
+      "params": "80B",
+      "size_category": "xlarge",
+      "base": "Qwen-3",
+      "enabled": true
+    },
+    {
+      "id": "qwen2-5-14b-deepseek-r1-1m-uncensored-mlx-4bit",
+      "repo_id": "cnfusion/Qwen2.5-14B-DeepSeek-R1-1M-Uncensored-mlx-4Bit",
+      "format": "mlx",
+      "filename_pattern": "",
+      "params": "2B",
+      "size_category": "small",
+      "base": "Qwen-2.5",
+      "enabled": true
+    },
+    {
+      "id": "qwen3-4b-thinking-2507-sft-uncensored",
+      "repo_id": "puwaer/Qwen3-4B-Thinking-2507-SFT-Uncensored",
+      "format": "transformers",
+      "filename_pattern": "",
+      "params": "4B",
+      "size_category": "medium",
+      "base": "Qwen-3",
+      "enabled": true
+    },
+    {
+      "id": "suri-qwen-3-1-4b-uncensored-2",
+      "repo_id": "SpaceTimee/Suri-Qwen-3.1-4B-Uncensored",
+      "format": "transformers",
+      "filename_pattern": "",
+      "params": "4B",
+      "size_category": "medium",
+      "base": "Unknown",
+      "enabled": true
+    },
+    {
+      "id": "qwen3-42b-a3b-stranger-thoughts-deep20x-abliterated-uncensored",
+      "repo_id": "DavidAU/Qwen3-42B-A3B-Stranger-Thoughts-Deep20x-Abliterated-Uncensored",
+      "format": "transformers",
+      "filename_pattern": "",
+      "params": "42B",
+      "size_category": "large",
+      "base": "Qwen-3",
+      "enabled": true
+    },
+    {
+      "id": "qwen3-4b-thinking-2507-grpo-uncensored",
+      "repo_id": "puwaer/Qwen3-4B-Thinking-2507-GRPO-Uncensored",
+      "format": "transformers",
+      "filename_pattern": "",
+      "params": "4B",
+      "size_category": "medium",
+      "base": "Qwen-3",
+      "enabled": true
+    },
+    {
+      "id": "qwen3-30b-a3b-claude-4-5-opus-high-reasoning-2507-abliterated-uncensored-v2-2",
+      "repo_id": "cashxout/Qwen3-30B-A3B-Claude-4.5-Opus-High-Reasoning-2507-ABLITERATED-UNCENSORED-V2",
+      "format": "transformers",
+      "filename_pattern": "",
+      "params": "31B",
+      "size_category": "large",
+      "base": "Qwen-3",
+      "enabled": true
+    },
+    {
+      "id": "qwen3-next-80b-a3b-thinking-sft-uncensored-2",
+      "repo_id": "puwaer/Qwen3-Next-80B-A3B-Thinking-SFT-Uncensored",
+      "format": "transformers",
+      "filename_pattern": "",
+      "params": "80B",
+      "size_category": "xlarge",
+      "base": "Qwen-3",
+      "enabled": true
+    },
+    {
+      "id": "qwen3-4b-thinking-2507-grpo-uncensored-v2",
+      "repo_id": "puwaer/Qwen3-4B-Thinking-2507-GRPO-Uncensored-V2",
+      "format": "transformers",
+      "filename_pattern": "",
+      "params": "4B",
+      "size_category": "medium",
+      "base": "Qwen-3",
+      "enabled": true
+    },
+    {
+      "id": "qwen3-32b-uncensored",
+      "repo_id": "nicoboss/Qwen3-32B-Uncensored",
+      "format": "transformers",
+      "filename_pattern": "",
+      "params": "33B",
+      "size_category": "large",
+      "base": "Qwen-3",
+      "enabled": true
+    },
+    {
+      "id": "qwen3-4b-thinking-2507-simpo-uncensored",
+      "repo_id": "puwaer/Qwen3-4B-Thinking-2507-SimPO-Uncensored",
+      "format": "transformers",
+      "filename_pattern": "",
+      "params": "4B",
+      "size_category": "medium",
+      "base": "Qwen-3",
+      "enabled": true
+    },
+    {
+      "id": "llama-3-2-8x3b-moe-dark-champion-instruct-uncensored-abliterated-18-4b",
+      "repo_id": "DavidAU/Llama-3.2-8X3B-MOE-Dark-Champion-Instruct-uncensored-abliterated-18.4B-GGUF",
+      "format": "gguf",
+      "filename_pattern": "Q4_K_M",
+      "params": "18B",
+      "size_category": "large",
+      "base": "Llama-3.2",
+      "enabled": true
+    },
+    {
+      "id": "llama-3-2-3b-instruct-uncensored",
+      "repo_id": "bartowski/Llama-3.2-3B-Instruct-uncensored-GGUF",
+      "format": "gguf",
+      "filename_pattern": "Q4_K_M",
+      "params": "4B",
+      "size_category": "medium",
+      "base": "Llama-3.2",
+      "enabled": true
+    },
+    {
+      "id": "llama3-3-8b-instruct-thinking-heretic-uncensored-claude-4-5-opus-high-reasoning",
+      "repo_id": "mradermacher/Llama3.3-8B-Instruct-Thinking-Heretic-Uncensored-Claude-4.5-Opus-High-Reasoning-i1-GGUF",
+      "format": "gguf",
+      "filename_pattern": "Q4_K_M",
+      "params": "8B",
+      "size_category": "medium",
+      "base": "Llama-3.3",
+      "enabled": true
+    },
+    {
+      "id": "lexi-llama-3-8b-uncensored",
+      "repo_id": "bartowski/Lexi-Llama-3-8B-Uncensored-GGUF",
+      "format": "gguf",
+      "filename_pattern": "Q4_K_M",
+      "params": "8B",
+      "size_category": "medium",
+      "base": "Llama-3",
+      "enabled": true
+    },
+    {
+      "id": "darkidol-llama-3-1-8b-instruct-1-2-uncensored",
+      "repo_id": "QuantFactory/DarkIdol-Llama-3.1-8B-Instruct-1.2-Uncensored-GGUF",
+      "format": "gguf",
+      "filename_pattern": "Q4_K_M",
+      "params": "8B",
+      "size_category": "medium",
+      "base": "Llama-3.1",
+      "enabled": true
+    },
+    {
+      "id": "l3-2-rogue-creative-instruct-uncensored-abliterated-7b",
+      "repo_id": "DavidAU/L3.2-Rogue-Creative-Instruct-Uncensored-Abliterated-7B-GGUF",
+      "format": "gguf",
+      "filename_pattern": "Q4_K_M",
+      "params": "8B",
+      "size_category": "medium",
+      "base": "Llama-3.2",
+      "enabled": true
+    },
+    {
+      "id": "llama-3-1-8b-lexi-uncensored-v2",
+      "repo_id": "Orenguteng/Llama-3.1-8B-Lexi-Uncensored-V2",
+      "format": "transformers",
+      "filename_pattern": "",
+      "params": "8B",
+      "size_category": "medium",
+      "base": "Llama-3.1",
+      "enabled": true
+    },
+    {
+      "id": "llama-3-2-8x4b-moe-v2-dark-champion-instruct-uncensored-abliterated-21b",
+      "repo_id": "DavidAU/Llama-3.2-8X4B-MOE-V2-Dark-Champion-Instruct-uncensored-abliterated-21B-GGUF",
+      "format": "gguf",
+      "filename_pattern": "Q4_K_M",
+      "params": "21B",
+      "size_category": "large",
+      "base": "Llama-3.2",
+      "enabled": true
+    },
+    {
+      "id": "llama-3-2-uncensored-erotica",
+      "repo_id": "hungng/Llama-3.2-uncensored-erotica",
+      "format": "transformers",
+      "filename_pattern": "",
+      "params": "3B",
+      "size_category": "small",
+      "base": "Llama-3.2",
+      "enabled": true
+    },
+    {
+      "id": "darkidol-llama-3-1-8b-instruct-1-2-uncensored-2",
+      "repo_id": "bartowski/DarkIdol-Llama-3.1-8B-Instruct-1.2-Uncensored-GGUF",
+      "format": "gguf",
+      "filename_pattern": "Q4_K_M",
+      "params": "unknown",
+      "size_category": "medium",
+      "base": "Llama-3.1",
+      "enabled": true
+    },
+    {
+      "id": "nidum-llama-3-2-3b-uncensored",
+      "repo_id": "VibeStudio/Nidum-Llama-3.2-3B-Uncensored-GGUF",
+      "format": "gguf",
+      "filename_pattern": "Q4_K_M",
+      "params": "3B",
+      "size_category": "small",
+      "base": "Llama-3.2",
+      "enabled": true
+    },
+    {
+      "id": "llama-3-2-1b-instruct-uncensored",
+      "repo_id": "mradermacher/Llama-3.2-1B-Instruct-Uncensored-GGUF",
+      "format": "gguf",
+      "filename_pattern": "Q4_K_M",
+      "params": "1B",
+      "size_category": "small",
+      "base": "Llama-3.2",
+      "enabled": true
+    },
+    {
+      "id": "llama-3-2-8x3b-gated-moe-neo-reasoning-dark-champion-uncensored-18-4b-imat",
+      "repo_id": "DavidAU/Llama-3.2-8X3B-GATED-MOE-NEO-Reasoning-Dark-Champion-uncensored-18.4B-IMAT-GGUF",
+      "format": "gguf",
+      "filename_pattern": "Q4_K_M",
+      "params": "18B",
+      "size_category": "large",
+      "base": "Llama-3.2",
+      "enabled": true
+    },
+    {
+      "id": "llama2-7b-chat-uncensored",
+      "repo_id": "TheBloke/llama2_7b_chat_uncensored-GGUF",
+      "format": "gguf",
+      "filename_pattern": "Q4_K_M",
+      "params": "7B",
+      "size_category": "medium",
+      "base": "Llama-2",
+      "enabled": true
+    },
+    {
+      "id": "llama-3-8b-lexi-uncensored",
+      "repo_id": "Orenguteng/Llama-3-8B-Lexi-Uncensored",
+      "format": "transformers",
+      "filename_pattern": "",
+      "params": "8B",
+      "size_category": "medium",
+      "base": "Llama-3",
+      "enabled": true
+    },
+    {
+      "id": "llama2-70b-chat-uncensored",
+      "repo_id": "TheBloke/llama2_70b_chat_uncensored-GGUF",
+      "format": "gguf",
+      "filename_pattern": "Q4_K_M",
+      "params": "69B",
+      "size_category": "xlarge",
+      "base": "Llama-2",
+      "enabled": true
+    },
+    {
+      "id": "llama3-3-8b-instruct-thinking-heretic-uncensored-claude-4-5-opus-high-reasoning-2",
+      "repo_id": "coderavi/Llama3.3-8B-Instruct-Thinking-Heretic-Uncensored-Claude-4.5-Opus-High-Reasoning-mlx-8Bit",
+      "format": "mlx",
+      "filename_pattern": "",
+      "params": "8B",
+      "size_category": "medium",
+      "base": "Llama-3.3",
+      "enabled": true
+    },
+    {
+      "id": "llama3-3-8b-instruct-thinking-heretic-uncensored-claude-4-5-opus-high-reasoning-3",
+      "repo_id": "DavidAU/Llama3.3-8B-Instruct-Thinking-Heretic-Uncensored-Claude-4.5-Opus-High-Reasoning",
+      "format": "transformers",
+      "filename_pattern": "",
+      "params": "unknown",
+      "size_category": "medium",
+      "base": "Llama-3.3",
+      "enabled": true
+    },
+    {
+      "id": "llama-3-2-8x3b-gated-moe-reasoning-dark-champion-instruct-uncensored-abliterated",
+      "repo_id": "DavidAU/Llama-3.2-8X3B-GATED-MOE-Reasoning-Dark-Champion-Instruct-uncensored-abliterated-18.4B-GGUF",
+      "format": "gguf",
+      "filename_pattern": "Q4_K_M",
+      "params": "18B",
+      "size_category": "large",
+      "base": "Llama-3.2",
+      "enabled": true
+    },
+    {
+      "id": "llama2-7b-chat-uncensored-2",
+      "repo_id": "georgesung/llama2_7b_chat_uncensored",
+      "format": "transformers",
+      "filename_pattern": "",
+      "params": "7B",
+      "size_category": "medium",
+      "base": "Llama-2",
+      "enabled": true
+    },
+    {
+      "id": "llama2-70b-chat-uncensored-2",
+      "repo_id": "jarradh/llama2_70b_chat_uncensored",
+      "format": "transformers",
+      "filename_pattern": "",
+      "params": "unknown",
+      "size_category": "medium",
+      "base": "Llama-2",
+      "enabled": true
+    },
+    {
+      "id": "llama-3-2-8x3b-gated-moe-horror-reasoning-dark-champion-uncensored-18-4b-imat",
+      "repo_id": "DavidAU/Llama-3.2-8X3B-GATED-MOE-Horror-Reasoning-Dark-Champion-uncensored-18.4B-IMAT-GGUF",
+      "format": "gguf",
+      "filename_pattern": "Q4_K_M",
+      "params": "18B",
+      "size_category": "large",
+      "base": "Llama-3.2",
+      "enabled": true
+    },
+    {
+      "id": "llama-3-8b-lexi-uncensored-2",
+      "repo_id": "Andycurrent/Llama-3-8B-Lexi-Uncensored",
+      "format": "transformers",
+      "filename_pattern": "",
+      "params": "8B",
+      "size_category": "medium",
+      "base": "Llama-3",
+      "enabled": true
+    },
+    {
+      "id": "llama-3-1-deepseek-8b-darkidol-instruct-1-2-uncensored",
+      "repo_id": "DavidAU/Llama-3.1-DeepSeek-8B-DarkIdol-Instruct-1.2-Uncensored-GGUF",
+      "format": "gguf",
+      "filename_pattern": "Q4_K_M",
+      "params": "8B",
+      "size_category": "medium",
+      "base": "Llama-3.1",
+      "enabled": true
+    },
+    {
+      "id": "darkidol-llama-3-1-8b-instruct-1-3-uncensored-gguf",
+      "repo_id": "Andycurrent/DarkIdol-Llama-3.1-8B-Instruct-1.3-Uncensored_GGUF",
+      "format": "transformers",
+      "filename_pattern": "",
+      "params": "8B",
+      "size_category": "medium",
+      "base": "Llama-3.1",
+      "enabled": true
+    },
+    {
+      "id": "llama-3-8b-lexifun-uncensored-v1",
+      "repo_id": "bartowski/Llama-3-8B-LexiFun-Uncensored-V1-GGUF",
+      "format": "gguf",
+      "filename_pattern": "Q4_K_M",
+      "params": "8B",
+      "size_category": "medium",
+      "base": "Llama-3",
+      "enabled": true
+    },
+    {
+      "id": "llama-3-2-1b-instruct-uncensored-2",
+      "repo_id": "mradermacher/Llama-3.2-1B-Instruct-Uncensored-i1-GGUF",
+      "format": "gguf",
+      "filename_pattern": "Q4_K_M",
+      "params": "1B",
+      "size_category": "small",
+      "base": "Llama-3.2",
+      "enabled": true
+    },
+    {
+      "id": "l3-1-dark-reasoning-lewdplay-evo-hermes-r1-uncensored-8b",
+      "repo_id": "DavidAU/L3.1-Dark-Reasoning-LewdPlay-evo-Hermes-R1-Uncensored-8B",
+      "format": "transformers",
+      "filename_pattern": "",
+      "params": "8B",
+      "size_category": "medium",
+      "base": "Llama-3.1",
+      "enabled": true
+    },
+    {
+      "id": "llama-3-2-1b-uncensored-rp-aesir-gguf",
+      "repo_id": "Novaciano/Llama-3.2_1b_Uncensored_RP_Aesir_GGUF",
+      "format": "transformers",
+      "filename_pattern": "",
+      "params": "1B",
+      "size_category": "small",
+      "base": "Llama-3.2",
+      "enabled": true
+    },
+    {
+      "id": "l3-1-dark-reasoning-lewdplay-evo-hermes-r1-uncensored-8b-q8-0",
+      "repo_id": "Triangle104/L3.1-Dark-Reasoning-LewdPlay-evo-Hermes-R1-Uncensored-8B-Q8_0-GGUF",
+      "format": "gguf",
+      "filename_pattern": "Q8_0",
+      "params": "8B",
+      "size_category": "medium",
+      "base": "Llama-3.1",
+      "enabled": true
+    },
+    {
+      "id": "llama-3-70b-instruct-uncensored",
+      "repo_id": "Dogge/llama-3-70B-instruct-uncensored",
+      "format": "transformers",
+      "filename_pattern": "",
+      "params": "71B",
+      "size_category": "xlarge",
+      "base": "Llama-3",
+      "enabled": true
+    },
+    {
+      "id": "llama2-7b-chat-uncensored-3",
+      "repo_id": "TheBloke/llama2_7b_chat_uncensored-AWQ",
+      "format": "awq",
+      "filename_pattern": "",
+      "params": "7B",
+      "size_category": "medium",
+      "base": "Llama-2",
+      "enabled": true
+    },
+    {
+      "id": "llama2-70b-chat-uncensored-3",
+      "repo_id": "YokaiKoibito/llama2_70b_chat_uncensored-GGUF",
+      "format": "gguf",
+      "filename_pattern": "Q4_K_M",
+      "params": "69B",
+      "size_category": "xlarge",
+      "base": "Llama-2",
+      "enabled": true
+    },
+    {
+      "id": "l3-1-2x8b-blacktower-rp-v1-uncensored",
+      "repo_id": "mradermacher/L3.1-2x8b_BlackTower_RP-V1-Uncensored-GGUF",
+      "format": "gguf",
+      "filename_pattern": "Q4_K_M",
+      "params": "14B",
+      "size_category": "medium",
+      "base": "Llama-3.1",
+      "enabled": true
+    },
+    {
+      "id": "llama2-70b-chat-uncensored-4",
+      "repo_id": "TheBloke/llama2_70b_chat_uncensored-GPTQ",
+      "format": "gptq",
+      "filename_pattern": "",
+      "params": "69B",
+      "size_category": "xlarge",
+      "base": "Llama-2",
+      "enabled": true
+    },
+    {
+      "id": "llama2-7b-chat-uncensored-4",
+      "repo_id": "TheBloke/llama2_7b_chat_uncensored-GPTQ",
+      "format": "gptq",
+      "filename_pattern": "",
+      "params": "7B",
+      "size_category": "medium",
+      "base": "Llama-2",
+      "enabled": true
+    },
+    {
+      "id": "llama2-13b-chat-uncensored",
+      "repo_id": "arogov/llama2_13b_chat_uncensored",
+      "format": "transformers",
+      "filename_pattern": "",
+      "params": "unknown",
+      "size_category": "medium",
+      "base": "Llama-2",
+      "enabled": true
+    },
+    {
+      "id": "open-llama-7b-qlora-uncensored",
+      "repo_id": "georgesung/open_llama_7b_qlora_uncensored",
+      "format": "transformers",
+      "filename_pattern": "",
+      "params": "7B",
+      "size_category": "medium",
+      "base": "OpenLlama",
+      "enabled": true
+    },
+    {
+      "id": "llama2-70b-chat-uncensored-5",
+      "repo_id": "TheBloke/llama2_70b_chat_uncensored-AWQ",
+      "format": "awq",
+      "filename_pattern": "",
+      "params": "69B",
+      "size_category": "xlarge",
+      "base": "Llama-2",
+      "enabled": true
+    },
+    {
+      "id": "llama2-13b-chat-uncensored-2",
+      "repo_id": "digitalpipelines/llama2_13b_chat_uncensored",
+      "format": "transformers",
+      "filename_pattern": "",
+      "params": "unknown",
+      "size_category": "medium",
+      "base": "Llama-2",
+      "enabled": true
+    },
+    {
+      "id": "llama2-7b-chat-uncensored-5",
+      "repo_id": "digitalpipelines/llama2_7b_chat_uncensored",
+      "format": "transformers",
+      "filename_pattern": "",
+      "params": "unknown",
+      "size_category": "medium",
+      "base": "Llama-2",
+      "enabled": true
+    },
+    {
+      "id": "llama2-70b-chat-uncensored-6",
+      "repo_id": "TheBloke/llama2_70b_chat_uncensored-GGML",
+      "format": "ggml",
+      "filename_pattern": "",
+      "params": "unknown",
+      "size_category": "medium",
+      "base": "Llama-2",
+      "enabled": true
+    },
+    {
+      "id": "llama-v2-13b-instruct-uncensored",
+      "repo_id": "CONCISE/LLaMa_V2-13B-Instruct-Uncensored-GGML",
+      "format": "ggml",
+      "filename_pattern": "",
+      "params": "unknown",
+      "size_category": "medium",
+      "base": "Unknown",
+      "enabled": true
+    },
+    {
+      "id": "llama2-7b-chat-uncensored-6",
+      "repo_id": "TheBloke/llama2_7b_chat_uncensored-GGML",
+      "format": "ggml",
+      "filename_pattern": "",
+      "params": "unknown",
+      "size_category": "medium",
+      "base": "Llama-2",
+      "enabled": true
+    },
+    {
+      "id": "llama-v2-13b-chat-uncensored",
+      "repo_id": "CONCISE/LLaMa_V2-13B-Chat-Uncensored-GGML",
+      "format": "ggml",
+      "filename_pattern": "",
+      "params": "unknown",
+      "size_category": "medium",
+      "base": "Unknown",
+      "enabled": true
+    },
+    {
+      "id": "open-llama-7b-qlora-uncensored-gptq",
+      "repo_id": "nkpz/open_llama_7b_qlora_uncensored-gptq",
+      "format": "gptq",
+      "filename_pattern": "",
+      "params": "unknown",
+      "size_category": "medium",
+      "base": "OpenLlama",
+      "enabled": true
+    },
+    {
+      "id": "llama2-70b-chat-uncensored-7",
+      "repo_id": "YokaiKoibito/llama2_70b_chat_uncensored-fp16",
+      "format": "transformers",
+      "filename_pattern": "",
+      "params": "unknown",
+      "size_category": "medium",
+      "base": "Llama-2",
+      "enabled": true
+    },
+    {
+      "id": "llama-v2-13b-instruct-uncensored-hf",
+      "repo_id": "CONCISE/LLaMa_V2-13B-Instruct-Uncensored-HF",
+      "format": "transformers",
+      "filename_pattern": "",
+      "params": "unknown",
+      "size_category": "medium",
+      "base": "Unknown",
+      "enabled": true
+    },
+    {
+      "id": "llama2-13b-chat-uncensored-3",
+      "repo_id": "digitalpipelines/llama2_13b_chat_uncensored-GPTQ",
+      "format": "gptq",
+      "filename_pattern": "",
+      "params": "unknown",
+      "size_category": "medium",
+      "base": "Llama-2",
+      "enabled": true
+    },
+    {
+      "id": "llama2-13b-chat-uncensored-4",
+      "repo_id": "digitalpipelines/llama2_13b_chat_uncensored-GGML",
+      "format": "ggml",
+      "filename_pattern": "",
+      "params": "unknown",
+      "size_category": "medium",
+      "base": "Llama-2",
+      "enabled": true
+    },
+    {
+      "id": "llama-3-8b-lexi-uncensored-nf4",
+      "repo_id": "s3nh/LLama-3-8B-Lexi-Uncensored-nf4-bf16",
+      "format": "transformers",
+      "filename_pattern": "",
+      "params": "3B",
+      "size_category": "small",
+      "base": "Llama-3",
+      "enabled": true
+    },
+    {
+      "id": "llama-2-13b-nous-hermes-vicuna-uncensored-mastermod-spych",
+      "repo_id": "wesley7137/Llama-2-13B-Nous-Hermes-vicuna-uncensored-mastermod-spych",
+      "format": "transformers",
+      "filename_pattern": "",
+      "params": "unknown",
+      "size_category": "medium",
+      "base": "Llama-2",
+      "enabled": true
+    },
+    {
+      "id": "llama-3-2-3b-instruct-uncensored-2",
+      "repo_id": "tostideluxekaas/Llama-3.2-3B-Instruct-uncensored-GGUF",
+      "format": "gguf",
+      "filename_pattern": "Q4_K_M",
+      "params": "3B",
+      "size_category": "small",
+      "base": "Llama-3.2",
+      "enabled": true
+    },
+    {
+      "id": "l3-1-dark-reasoning-lewdplay-evo-hermes-r1-uncensored-8b-2",
+      "repo_id": "papirrin2025/L3.1-Dark-Reasoning-LewdPlay-evo-Hermes-R1-Uncensored-8B",
+      "format": "transformers",
+      "filename_pattern": "",
+      "params": "8B",
+      "size_category": "medium",
+      "base": "Llama-3.1",
+      "enabled": true
+    },
+    {
+      "id": "llama2-7b-chat-uncensored-7",
+      "repo_id": "digitalpipelines/llama2_7b_chat_uncensored-GPTQ",
+      "format": "gptq",
+      "filename_pattern": "",
+      "params": "unknown",
+      "size_category": "medium",
+      "base": "Llama-2",
+      "enabled": true
+    },
+    {
+      "id": "llama2-7b-chat-uncensored-8",
+      "repo_id": "digitalpipelines/llama2_7b_chat_uncensored-GGML",
+      "format": "ggml",
+      "filename_pattern": "",
+      "params": "unknown",
+      "size_category": "medium",
+      "base": "Llama-2",
+      "enabled": true
+    },
+    {
+      "id": "llama2-7b-chat-uncensored-q4f16-1",
+      "repo_id": "jambonmcyeah/llama2_7b_chat_uncensored-q4f16_1",
+      "format": "transformers",
+      "filename_pattern": "",
+      "params": "unknown",
+      "size_category": "medium",
+      "base": "Llama-2",
+      "enabled": true
+    },
+    {
+      "id": "fine-tuned-llama2-model-uncensored",
+      "repo_id": "AIMLRapid/fine-tuned-llama2-model-uncensored",
+      "format": "transformers",
+      "filename_pattern": "",
+      "params": "unknown",
+      "size_category": "medium",
+      "base": "Llama-2",
+      "enabled": true
+    },
+    {
+      "id": "deepseek-r1-distill-qwen-14b-uncensored",
+      "repo_id": "mradermacher/DeepSeek-R1-Distill-Qwen-14B-Uncensored-GGUF",
+      "format": "gguf",
+      "filename_pattern": "Q4_K_M",
+      "params": "15B",
+      "size_category": "large",
+      "base": "DeepSeek",
+      "enabled": true
+    },
+    {
+      "id": "deepseek-r1-distill-qwen-1-5b-uncensored",
+      "repo_id": "mradermacher/DeepSeek-R1-Distill-Qwen-1.5B-uncensored-GGUF",
+      "format": "gguf",
+      "filename_pattern": "Q4_K_M",
+      "params": "2B",
+      "size_category": "small",
+      "base": "DeepSeek",
+      "enabled": true
+    },
+    {
+      "id": "mistral-nemo-2407-12b-thinking-claude-gemini-gpt5-2-uncensored-heretic",
+      "repo_id": "mradermacher/Mistral-Nemo-2407-12B-Thinking-Claude-Gemini-GPT5.2-Uncensored-HERETIC-GGUF",
+      "format": "gguf",
+      "filename_pattern": "Q4_K_M",
+      "params": "12B",
+      "size_category": "medium",
+      "base": "Mistral",
+      "enabled": true
+    },
+    {
+      "id": "mistral-moe-4x7b-dark-multiverse-uncensored-enhanced32-24b-gguf",
+      "repo_id": "DavidAU/Mistral-MOE-4X7B-Dark-MultiVerse-Uncensored-Enhanced32-24B-gguf",
+      "format": "gguf",
+      "filename_pattern": "Q4_K_M",
+      "params": "24B",
+      "size_category": "large",
+      "base": "Mistral",
+      "enabled": true
+    },
+    {
+      "id": "mystral-uncensored-rp-7b",
+      "repo_id": "mradermacher/Mystral-Uncensored-RP-7B-GGUF",
+      "format": "gguf",
+      "filename_pattern": "Q4_K_M",
+      "params": "7B",
+      "size_category": "medium",
+      "base": "Unknown",
+      "enabled": true
+    },
+    {
+      "id": "mistral-7b-uncensored",
+      "repo_id": "luvGPT/mistral-7b-uncensored",
+      "format": "transformers",
+      "filename_pattern": "",
+      "params": "7B",
+      "size_category": "medium",
+      "base": "Mistral",
+      "enabled": true
+    },
+    {
+      "id": "lfm2-5-1-2b-thinking-claude-4-6-opus-heretic-uncensored-distill",
+      "repo_id": "mradermacher/LFM2.5-1.2B-Thinking-Claude-4.6-Opus-Heretic-Uncensored-DISTILL-GGUF",
+      "format": "gguf",
+      "filename_pattern": "Q4_K_M",
+      "params": "1B",
+      "size_category": "small",
+      "base": "LFM-2.5",
+      "enabled": true
+    },
+    {
+      "id": "lfm2-5-1-2b-thinking-gemini-pro-heretic-uncensored-distill",
+      "repo_id": "mradermacher/LFM2.5-1.2B-Thinking-Gemini-Pro-Heretic-Uncensored-DISTILL-GGUF",
+      "format": "gguf",
+      "filename_pattern": "Q4_K_M",
+      "params": "1B",
+      "size_category": "small",
+      "base": "LFM-2.5",
+      "enabled": true
+    },
+    {
+      "id": "lfm2-5-1-2b-thinking-claude-4-6-opus-heretic-uncensored-distill-2",
+      "repo_id": "DavidAU/LFM2.5-1.2B-Thinking-Claude-4.6-Opus-Heretic-Uncensored-DISTILL",
+      "format": "transformers",
+      "filename_pattern": "",
+      "params": "1B",
+      "size_category": "small",
+      "base": "LFM-2.5",
+      "enabled": true
+    },
+    {
+      "id": "lfm2-5-1-2b-thinking-polaris-heretic-uncensored-distill",
+      "repo_id": "DavidAU/LFM2.5-1.2B-Thinking-Polaris-Heretic-Uncensored-DISTILL",
+      "format": "transformers",
+      "filename_pattern": "",
+      "params": "1B",
+      "size_category": "small",
+      "base": "LFM-2.5",
+      "enabled": true
+    },
+    {
+      "id": "lfm2-5-1-2b-thinking-gemini-pro-1000-heretic-uncensored-distill",
+      "repo_id": "DavidAU/LFM2.5-1.2B-Thinking-Gemini-Pro-1000-Heretic-Uncensored-DISTILL",
+      "format": "transformers",
+      "filename_pattern": "",
+      "params": "1B",
+      "size_category": "small",
+      "base": "LFM-2.5",
+      "enabled": true
+    },
+    {
+      "id": "lfm2-5-1-2b-thinking-gemini-pro-heretic-uncensored-distill-2",
+      "repo_id": "DavidAU/LFM2.5-1.2B-Thinking-Gemini-Pro-Heretic-Uncensored-DISTILL",
+      "format": "transformers",
+      "filename_pattern": "",
+      "params": "1B",
+      "size_category": "small",
+      "base": "LFM-2.5",
+      "enabled": true
+    },
+    {
+      "id": "lfm2-5-1-2b-thinking-deepseek-3-1-heretic-uncensored-distill",
+      "repo_id": "DavidAU/LFM2.5-1.2B-Thinking-Deepseek-3.1-Heretic-Uncensored-DISTILL",
+      "format": "transformers",
+      "filename_pattern": "",
+      "params": "1B",
+      "size_category": "small",
+      "base": "DeepSeek",
+      "enabled": true
+    },
+    {
+      "id": "lfm2-5-1-2b-thinking-kimi-v2-heretic-uncensored-distill",
+      "repo_id": "DavidAU/LFM2.5-1.2B-Thinking-Kimi-V2-Heretic-Uncensored-DISTILL",
+      "format": "transformers",
+      "filename_pattern": "",
+      "params": "1B",
+      "size_category": "small",
+      "base": "LFM-2.5",
+      "enabled": true
+    },
+    {
+      "id": "lfm2-5-1-2b-thinking-glm-4-7-flash-heretic-uncensored-distill",
+      "repo_id": "DavidAU/LFM2.5-1.2B-Thinking-GLM-4.7-Flash-Heretic-Uncensored-DISTILL",
+      "format": "transformers",
+      "filename_pattern": "",
+      "params": "1B",
+      "size_category": "small",
+      "base": "GLM-4.7",
+      "enabled": true
+    },
+    {
+      "id": "lfm2-5-1-2b-thinking-superminds-7x-heretic-uncensored-distill",
+      "repo_id": "DavidAU/LFM2.5-1.2B-Thinking-SuperMinds-7x-Heretic-Uncensored-DISTILL",
+      "format": "transformers",
+      "filename_pattern": "",
+      "params": "1B",
+      "size_category": "small",
+      "base": "LFM-2.5",
+      "enabled": true
+    },
+    {
+      "id": "lfm2-5-1-2b-thinking-gpt-5-1-1000-heretic-uncensored-distill",
+      "repo_id": "DavidAU/LFM2.5-1.2B-Thinking-GPT-5.1-1000-Heretic-Uncensored-DISTILL",
+      "format": "transformers",
+      "filename_pattern": "",
+      "params": "1B",
+      "size_category": "small",
+      "base": "LFM-2.5",
+      "enabled": true
+    },
+    {
+      "id": "wizardlm-1-0-uncensored-llama2-13b",
+      "repo_id": "TheBloke/WizardLM-1.0-Uncensored-Llama2-13B-GGUF",
+      "format": "gguf",
+      "filename_pattern": "Q4_K_M",
+      "params": "13B",
+      "size_category": "medium",
+      "base": "Llama-2",
+      "enabled": true
+    },
+    {
+      "id": "wizardlm-13b-uncensored",
+      "repo_id": "TheBloke/WizardLM-13B-Uncensored-GGUF",
+      "format": "gguf",
+      "filename_pattern": "Q4_K_M",
+      "params": "13B",
+      "size_category": "medium",
+      "base": "WizardLM",
+      "enabled": true
+    },
+    {
+      "id": "wizardlm-1-0-uncensored-codellama-34b",
+      "repo_id": "TheBloke/WizardLM-1.0-Uncensored-CodeLlama-34B-GGUF",
+      "format": "gguf",
+      "filename_pattern": "Q4_K_M",
+      "params": "34B",
+      "size_category": "large",
+      "base": "Llama-3",
+      "enabled": true
+    },
+    {
+      "id": "wizardlm-7b-uncensored",
+      "repo_id": "QuixiAI/WizardLM-7B-Uncensored",
+      "format": "transformers",
+      "filename_pattern": "",
+      "params": "unknown",
+      "size_category": "medium",
+      "base": "WizardLM",
+      "enabled": true
+    },
+    {
+      "id": "wizardlm-30b-uncensored",
+      "repo_id": "TheBloke/WizardLM-30B-Uncensored-GGUF",
+      "format": "gguf",
+      "filename_pattern": "Q4_K_M",
+      "params": "33B",
+      "size_category": "large",
+      "base": "WizardLM",
+      "enabled": true
+    },
+    {
+      "id": "wizardlm-30b-uncensored-2",
+      "repo_id": "QuixiAI/WizardLM-30B-Uncensored",
+      "format": "transformers",
+      "filename_pattern": "",
+      "params": "unknown",
+      "size_category": "medium",
+      "base": "WizardLM",
+      "enabled": true
+    },
+    {
+      "id": "wizardlm-33b-v1-0-uncensored",
+      "repo_id": "QuixiAI/WizardLM-33B-V1.0-Uncensored",
+      "format": "transformers",
+      "filename_pattern": "",
+      "params": "unknown",
+      "size_category": "medium",
+      "base": "WizardLM",
+      "enabled": true
+    },
+    {
+      "id": "wizardlm-7b-uncensored-2",
+      "repo_id": "TheBloke/WizardLM-7B-uncensored-GPTQ",
+      "format": "gptq",
+      "filename_pattern": "",
+      "params": "7B",
+      "size_category": "medium",
+      "base": "WizardLM",
+      "enabled": true
+    },
+    {
+      "id": "llama2-22b-chat-wizard-uncensored",
+      "repo_id": "nkpz/llama2-22b-chat-wizard-uncensored",
+      "format": "transformers",
+      "filename_pattern": "",
+      "params": "22B",
+      "size_category": "large",
+      "base": "Llama-2",
+      "enabled": true
+    },
+    {
+      "id": "wizardlm-13b-openassistant-uncensored",
+      "repo_id": "Monero/WizardLM-13b-OpenAssistant-Uncensored",
+      "format": "transformers",
+      "filename_pattern": "",
+      "params": "unknown",
+      "size_category": "medium",
+      "base": "WizardLM",
+      "enabled": true
+    },
+    {
+      "id": "wizardlm-33b-v1-0-uncensored-superhot-8k",
+      "repo_id": "Panchovix/WizardLM-33B-V1.0-Uncensored-SuperHOT-8k",
+      "format": "transformers",
+      "filename_pattern": "",
+      "params": "unknown",
+      "size_category": "medium",
+      "base": "WizardLM",
+      "enabled": true
+    },
+    {
+      "id": "wizardlm-13b-uncensored-2",
+      "repo_id": "QuixiAI/WizardLM-13B-Uncensored",
+      "format": "transformers",
+      "filename_pattern": "",
+      "params": "unknown",
+      "size_category": "medium",
+      "base": "WizardLM",
+      "enabled": true
+    },
+    {
+      "id": "wizardlm-7b-v1-0-uncensored",
+      "repo_id": "ZanMax/WizardLM-7B-V1.0-Uncensored-GGUF",
+      "format": "gguf",
+      "filename_pattern": "Q4_K_M",
+      "params": "7B",
+      "size_category": "medium",
+      "base": "WizardLM",
+      "enabled": true
+    },
+    {
+      "id": "wizardlm-1-0-uncensored-codellama-34b-2",
+      "repo_id": "QuixiAI/WizardLM-1.0-Uncensored-CodeLlama-34b",
+      "format": "transformers",
+      "filename_pattern": "",
+      "params": "unknown",
+      "size_category": "medium",
+      "base": "Llama-3",
+      "enabled": true
+    },
+    {
+      "id": "wizardlm-30b-uncensored-3",
+      "repo_id": "TheBloke/WizardLM-30B-Uncensored-GGML",
+      "format": "ggml",
+      "filename_pattern": "",
+      "params": "unknown",
+      "size_category": "medium",
+      "base": "WizardLM",
+      "enabled": true
+    },
+    {
+      "id": "wizardlm-7b-uncensored-3",
+      "repo_id": "TheBloke/WizardLM-7B-uncensored-GGML",
+      "format": "ggml",
+      "filename_pattern": "",
+      "params": "unknown",
+      "size_category": "medium",
+      "base": "WizardLM",
+      "enabled": true
+    },
+    {
+      "id": "wizardlm-13b-uncensored-3",
+      "repo_id": "TheBloke/WizardLM-13B-Uncensored-GGML",
+      "format": "ggml",
+      "filename_pattern": "",
+      "params": "unknown",
+      "size_category": "medium",
+      "base": "WizardLM",
+      "enabled": true
+    },
+    {
+      "id": "wizardlm-13b-v1-0-uncensored",
+      "repo_id": "TheBloke/WizardLM-13B-V1.0-Uncensored-GPTQ",
+      "format": "gptq",
+      "filename_pattern": "",
+      "params": "13B",
+      "size_category": "medium",
+      "base": "WizardLM",
+      "enabled": true
+    },
+    {
+      "id": "wizardlm-33b-v1-0-uncensored-superhot-8k-2",
+      "repo_id": "TheBloke/WizardLM-33B-V1-0-Uncensored-SuperHOT-8K-GPTQ",
+      "format": "gptq",
+      "filename_pattern": "",
+      "params": "unknown",
+      "size_category": "medium",
+      "base": "WizardLM",
+      "enabled": true
+    },
+    {
+      "id": "wizardlm-30b-uncensored-4",
+      "repo_id": "TheBloke/WizardLM-30B-Uncensored-GPTQ",
+      "format": "gptq",
+      "filename_pattern": "",
+      "params": "33B",
+      "size_category": "large",
+      "base": "WizardLM",
+      "enabled": true
+    },
+    {
+      "id": "wizardlm-1-0-uncensored-llama2-13b-2",
+      "repo_id": "QuixiAI/WizardLM-1.0-Uncensored-Llama2-13b",
+      "format": "transformers",
+      "filename_pattern": "",
+      "params": "unknown",
+      "size_category": "medium",
+      "base": "Llama-2",
+      "enabled": true
+    },
+    {
+      "id": "wizardlm-7b-v1-0-uncensored-2",
+      "repo_id": "TheBloke/WizardLM-7B-V1.0-Uncensored-GPTQ",
+      "format": "gptq",
+      "filename_pattern": "",
+      "params": "7B",
+      "size_category": "medium",
+      "base": "WizardLM",
+      "enabled": true
+    },
+    {
+      "id": "wizardlm-13b-uncensored-q5-1",
+      "repo_id": "TehVenom/WizardLM-13B-Uncensored-Q5_1-GGML",
+      "format": "ggml",
+      "filename_pattern": "",
+      "params": "unknown",
+      "size_category": "medium",
+      "base": "WizardLM",
+      "enabled": true
+    },
+    {
+      "id": "wizardlm-33b-v1-0-uncensored-2",
+      "repo_id": "TheBloke/WizardLM-33B-V1.0-Uncensored-GGML",
+      "format": "ggml",
+      "filename_pattern": "",
+      "params": "unknown",
+      "size_category": "medium",
+      "base": "WizardLM",
+      "enabled": true
+    },
+    {
+      "id": "wizardlm-13b-v1-0-uncensored-superhot-8k",
+      "repo_id": "TheBloke/WizardLM-13B-V1-0-Uncensored-SuperHOT-8K-GPTQ",
+      "format": "gptq",
+      "filename_pattern": "",
+      "params": "13B",
+      "size_category": "medium",
+      "base": "WizardLM",
+      "enabled": true
+    },
+    {
+      "id": "wizardlm-13b-v1-0-uncensored-2",
+      "repo_id": "QuixiAI/WizardLM-13B-V1.0-Uncensored",
+      "format": "transformers",
+      "filename_pattern": "",
+      "params": "unknown",
+      "size_category": "medium",
+      "base": "WizardLM",
+      "enabled": true
+    },
+    {
+      "id": "wizardlm-13b-v1-0-uncensored-3",
+      "repo_id": "TheBloke/WizardLM-13B-V1.0-Uncensored-GGML",
+      "format": "ggml",
+      "filename_pattern": "",
+      "params": "unknown",
+      "size_category": "medium",
+      "base": "WizardLM",
+      "enabled": true
+    },
+    {
+      "id": "wizardlm-7b-v1-0-uncensored-3",
+      "repo_id": "QuixiAI/WizardLM-7B-V1.0-Uncensored",
+      "format": "transformers",
+      "filename_pattern": "",
+      "params": "unknown",
+      "size_category": "medium",
+      "base": "WizardLM",
+      "enabled": true
+    },
+    {
+      "id": "wizardlm-33b-v1-0-uncensored-3",
+      "repo_id": "TheBloke/WizardLM-33B-V1.0-Uncensored-GPTQ",
+      "format": "gptq",
+      "filename_pattern": "",
+      "params": "33B",
+      "size_category": "large",
+      "base": "WizardLM",
+      "enabled": true
+    },
+    {
+      "id": "wizardlm-13b-v1-0-uncensored-superhot-8k-2",
+      "repo_id": "TheBloke/WizardLM-13B-V1-0-Uncensored-SuperHOT-8K-GGML",
+      "format": "ggml",
+      "filename_pattern": "",
+      "params": "unknown",
+      "size_category": "medium",
+      "base": "WizardLM",
+      "enabled": true
+    },
+    {
+      "id": "wizardlm-7b-v1-0-uncensored-4",
+      "repo_id": "TheBloke/WizardLM-7B-V1.0-Uncensored-GGML",
+      "format": "ggml",
+      "filename_pattern": "",
+      "params": "unknown",
+      "size_category": "medium",
+      "base": "WizardLM",
+      "enabled": true
+    },
+    {
+      "id": "wizardlm-7b-v1-0-uncensored-superhot-8k",
+      "repo_id": "TheBloke/WizardLM-7B-V1-0-Uncensored-SuperHOT-8K-GPTQ",
+      "format": "gptq",
+      "filename_pattern": "",
+      "params": "7B",
+      "size_category": "medium",
+      "base": "WizardLM",
+      "enabled": true
+    },
+    {
+      "id": "wizardlm-13b-v1-0-uncensored-superhot-8k-tgi",
+      "repo_id": "Ichigo2899/WizardLM-13B-V1-0-Uncensored-SuperHOT-8K-TGI",
+      "format": "transformers",
+      "filename_pattern": "",
+      "params": "2B",
+      "size_category": "small",
+      "base": "WizardLM",
+      "enabled": true
+    },
+    {
+      "id": "wizardlm-1-0-uncensored-llama2-13b-3",
+      "repo_id": "TheBloke/WizardLM-1.0-Uncensored-Llama2-13B-GPTQ",
+      "format": "gptq",
+      "filename_pattern": "",
+      "params": "13B",
+      "size_category": "medium",
+      "base": "Llama-2",
+      "enabled": true
+    },
+    {
+      "id": "wizardlm-13b-v1-0-uncensored-superhot-8k-3",
+      "repo_id": "TheBloke/WizardLM-13B-V1-0-Uncensored-SuperHOT-8K-fp16",
+      "format": "transformers",
+      "filename_pattern": "",
+      "params": "unknown",
+      "size_category": "medium",
+      "base": "WizardLM",
+      "enabled": true
+    },
+    {
+      "id": "wizardlm-1-0-uncensored-llama2-13b-4",
+      "repo_id": "TheBloke/WizardLM-1.0-Uncensored-Llama2-13B-GGML",
+      "format": "ggml",
+      "filename_pattern": "",
+      "params": "unknown",
+      "size_category": "medium",
+      "base": "Llama-2",
+      "enabled": true
+    },
+    {
+      "id": "wizardlm-1-0-uncensored-llama2-13b-5",
+      "repo_id": "garcianacho/WizardLM-1.0-Uncensored-Llama2-13b-GGUF",
+      "format": "gguf",
+      "filename_pattern": "Q4_K_M",
+      "params": "13B",
+      "size_category": "medium",
+      "base": "Llama-2",
+      "enabled": true
+    },
+    {
+      "id": "wizardlm-1-0-uncensored-codellama-34b-3",
+      "repo_id": "TheBloke/WizardLM-1.0-Uncensored-CodeLlama-34B-AWQ",
+      "format": "awq",
+      "filename_pattern": "",
+      "params": "34B",
+      "size_category": "large",
+      "base": "Llama-3",
+      "enabled": true
+    },
+    {
+      "id": "wizardlm-1-0-uncensored-llama2-13b-6",
+      "repo_id": "TheBloke/WizardLM-1.0-Uncensored-Llama2-13B-AWQ",
+      "format": "awq",
+      "filename_pattern": "",
+      "params": "13B",
+      "size_category": "medium",
+      "base": "Llama-2",
+      "enabled": true
+    },
+    {
+      "id": "wizardlm-7b-uncensored-gptq-8bit-128g",
+      "repo_id": "Squish42/WizardLM-7B-Uncensored-GPTQ-8bit-128g",
+      "format": "gptq",
+      "filename_pattern": "",
+      "params": "unknown",
+      "size_category": "medium",
+      "base": "WizardLM",
+      "enabled": true
+    },
+    {
+      "id": "wizardlm-1-0-uncensored-codellama-34b-4",
+      "repo_id": "TheBloke/WizardLM-1.0-Uncensored-CodeLlama-34B-GPTQ",
+      "format": "gptq",
+      "filename_pattern": "",
+      "params": "34B",
+      "size_category": "large",
+      "base": "Llama-3",
+      "enabled": true
+    },
+    {
+      "id": "wizardlm-33b-v1-0-uncensored-superhot-8k-3",
+      "repo_id": "ycros/WizardLM-33B-V1.0-Uncensored-SuperHOT-8k-GGML",
+      "format": "ggml",
+      "filename_pattern": "",
+      "params": "unknown",
+      "size_category": "medium",
+      "base": "WizardLM",
+      "enabled": true
+    },
+    {
+      "id": "wizardlm-1-0-uncensored-llama2-13b-germanquad-v2-16bit-v3",
+      "repo_id": "Dietmar2020/WizardLM-1.0-Uncensored-Llama2-13b-GermanQuad-V2-16Bit_V3",
+      "format": "transformers",
+      "filename_pattern": "",
+      "params": "unknown",
+      "size_category": "medium",
+      "base": "Llama-2",
+      "enabled": true
+    },
+    {
+      "id": "wizardlm-7b-uncensored-gptq-4bit-128g",
+      "repo_id": "usamakenway/WizardLM-7B-uncensored-GPTQ-4bit-128g",
+      "format": "gptq",
+      "filename_pattern": "",
+      "params": "unknown",
+      "size_category": "medium",
+      "base": "WizardLM",
+      "enabled": true
+    },
+    {
+      "id": "wizardlm-33b-v1-0-uncensored-superhot-8k-4bit-32g",
+      "repo_id": "Panchovix/WizardLM-33B-V1.0-Uncensored-SuperHOT-8k-4bit-32g",
+      "format": "transformers",
+      "filename_pattern": "",
+      "params": "unknown",
+      "size_category": "medium",
+      "base": "WizardLM",
+      "enabled": true
+    },
+    {
+      "id": "wizardlm-7b-v1-0-uncensored-superhot-8k-2",
+      "repo_id": "TheBloke/WizardLM-7B-V1-0-Uncensored-SuperHOT-8K-fp16",
+      "format": "transformers",
+      "filename_pattern": "",
+      "params": "unknown",
+      "size_category": "medium",
+      "base": "WizardLM",
+      "enabled": true
+    },
+    {
+      "id": "wizardlm-13b-uncensored-4bit-128g",
+      "repo_id": "4bit/WizardLM-13B-Uncensored-4bit-128g",
+      "format": "transformers",
+      "filename_pattern": "",
+      "params": "unknown",
+      "size_category": "medium",
+      "base": "WizardLM",
+      "enabled": true
+    },
+    {
+      "id": "wizardlm-7b-uncensored-gptq-act-order-8bit",
+      "repo_id": "Squish42/WizardLM-7B-Uncensored-GPTQ-act_order-8bit",
+      "format": "gptq",
+      "filename_pattern": "",
+      "params": "unknown",
+      "size_category": "medium",
+      "base": "WizardLM",
+      "enabled": true
+    },
+    {
+      "id": "wizardlm-7b-v1-0-uncensored-superhot-8k-3",
+      "repo_id": "TheBloke/WizardLM-7B-V1-0-Uncensored-SuperHOT-8K-GGML",
+      "format": "ggml",
+      "filename_pattern": "",
+      "params": "unknown",
+      "size_category": "medium",
+      "base": "WizardLM",
+      "enabled": true
+    },
+    {
+      "id": "wizardlm-7b-v1-0-uncensored-5",
+      "repo_id": "localmodels/WizardLM-7B-v1.0-Uncensored-GPTQ",
+      "format": "gptq",
+      "filename_pattern": "",
+      "params": "unknown",
+      "size_category": "medium",
+      "base": "WizardLM",
+      "enabled": true
+    },
+    {
+      "id": "wizardlm-7b-uncensored-4",
+      "repo_id": "zohaib99k/WizardLM-7B-uncensored-GPTQ",
+      "format": "gptq",
+      "filename_pattern": "",
+      "params": "unknown",
+      "size_category": "medium",
+      "base": "WizardLM",
+      "enabled": true
+    },
+    {
+      "id": "wizardlm-7b-uncensored-5",
+      "repo_id": "4bit/WizardLM-7B-uncensored-GPTQ",
+      "format": "gptq",
+      "filename_pattern": "",
+      "params": "unknown",
+      "size_category": "medium",
+      "base": "WizardLM",
+      "enabled": true
+    },
+    {
+      "id": "wizardlm-openassistant-30b-uncensored-4bit",
+      "repo_id": "Monero/WizardLM-OpenAssistant-30b-Uncensored-4bit",
+      "format": "transformers",
+      "filename_pattern": "",
+      "params": "unknown",
+      "size_category": "medium",
+      "base": "WizardLM",
+      "enabled": true
+    },
+    {
+      "id": "wizardlm-7b-uncensored-4bit",
+      "repo_id": "localmodels/WizardLM-7B-Uncensored-4bit",
+      "format": "transformers",
+      "filename_pattern": "",
+      "params": "unknown",
+      "size_category": "medium",
+      "base": "WizardLM",
+      "enabled": true
+    },
+    {
+      "id": "wizardlm-1-0-uncensored-llama2-13b-germanquad",
+      "repo_id": "Dietmar2020/WizardLM-1.0-Uncensored-Llama2-13b-GermanQuad",
+      "format": "transformers",
+      "filename_pattern": "",
+      "params": "unknown",
+      "size_category": "medium",
+      "base": "Llama-2",
+      "enabled": true
+    },
+    {
+      "id": "wizardlm-7b-uncensored-gptq",
+      "repo_id": "seonglae/wizardlm-7b-uncensored-gptq",
+      "format": "gptq",
+      "filename_pattern": "",
+      "params": "unknown",
+      "size_category": "medium",
+      "base": "WizardLM",
+      "enabled": true
+    },
+    {
+      "id": "wizardlm-30b-uncensored-5",
+      "repo_id": "DubSTYLE/WizardLM-30B-uncensored-GPTQ",
+      "format": "gptq",
+      "filename_pattern": "",
+      "params": "unknown",
+      "size_category": "medium",
+      "base": "WizardLM",
+      "enabled": true
+    },
+    {
+      "id": "summary-quality-judge-wizardlm-uncensored-40b-lora",
+      "repo_id": "KnutJaegersberg/summary-quality-judge-WizardLM-Uncensored-40b-lora",
+      "format": "transformers",
+      "filename_pattern": "",
+      "params": "unknown",
+      "size_category": "medium",
+      "base": "WizardLM",
+      "enabled": true
+    },
+    {
+      "id": "llama13b-wizardlm-uncensored-medicaldialogue",
+      "repo_id": "wesley7137/llama13b-wizardlm-uncensored-medicaldialogue",
+      "format": "transformers",
+      "filename_pattern": "",
+      "params": "unknown",
+      "size_category": "medium",
+      "base": "WizardLM",
+      "enabled": true
+    },
+    {
+      "id": "wizardlm-1-0-uncensored-llama2-13b-7",
+      "repo_id": "khoantap/WizardLM-1.0-Uncensored-Llama2-13b",
+      "format": "transformers",
+      "filename_pattern": "",
+      "params": "unknown",
+      "size_category": "medium",
+      "base": "Llama-2",
+      "enabled": true
+    },
+    {
+      "id": "wizardlm-33b-v1-0-uncensored-4",
+      "repo_id": "ZanMax/WizardLM-33B-V1.0-Uncensored-GGUF",
+      "format": "gguf",
+      "filename_pattern": "Q4_K_M",
+      "params": "unknown",
+      "size_category": "medium",
+      "base": "WizardLM",
+      "enabled": true
+    },
+    {
+      "id": "wizardlm-13b-v1-0-uncensored-4",
+      "repo_id": "ZanMax/WizardLM-13B-V1.0-Uncensored-GGUF",
+      "format": "gguf",
+      "filename_pattern": "Q4_K_M",
+      "params": "unknown",
+      "size_category": "medium",
+      "base": "WizardLM",
+      "enabled": true
+    },
+    {
+      "id": "wizardlm-13b-uncensored-4",
+      "repo_id": "amaxen/WizardLM-13B-Uncensored",
+      "format": "transformers",
+      "filename_pattern": "",
+      "params": "unknown",
+      "size_category": "medium",
+      "base": "WizardLM",
+      "enabled": true
+    },
+    {
+      "id": "wizardlm-7b-uncensored-adaptor-model",
+      "repo_id": "OZ1150/WizardLM-7B-Uncensored-adaptor-model",
+      "format": "transformers",
+      "filename_pattern": "",
+      "params": "unknown",
+      "size_category": "medium",
+      "base": "WizardLM",
+      "enabled": true
+    },
+    {
+      "id": "wizardlm-7b-v1-0-uncensored-ggml",
+      "repo_id": "localmodels/WizardLM-7B-v1.0-Uncensored-ggml",
+      "format": "ggml",
+      "filename_pattern": "",
+      "params": "unknown",
+      "size_category": "medium",
+      "base": "WizardLM",
+      "enabled": true
+    },
+    {
+      "id": "argument-quality-judge-wizardlm-uncensored-40b-lora",
+      "repo_id": "KnutJaegersberg/argument-quality-judge-WizardLM-Uncensored-40b-lora",
+      "format": "transformers",
+      "filename_pattern": "",
+      "params": "unknown",
+      "size_category": "medium",
+      "base": "WizardLM",
+      "enabled": true
+    },
+    {
+      "id": "ct2fast-wizardlm-1-0-uncensored-llama2-13b",
+      "repo_id": "piratos/ct2fast-WizardLM-1.0-Uncensored-Llama2-13b",
+      "format": "transformers",
+      "filename_pattern": "",
+      "params": "unknown",
+      "size_category": "medium",
+      "base": "Llama-2",
+      "enabled": true
+    },
+    {
+      "id": "wizard-vicuna-30b-uncensored",
+      "repo_id": "TheBloke/Wizard-Vicuna-30B-Uncensored-GPTQ",
+      "format": "gptq",
+      "filename_pattern": "",
+      "params": "33B",
+      "size_category": "large",
+      "base": "Vicuna",
+      "enabled": true
+    },
+    {
+      "id": "wizard-vicuna-13b-uncensored",
+      "repo_id": "TheBloke/Wizard-Vicuna-13B-Uncensored-GGUF",
+      "format": "gguf",
+      "filename_pattern": "Q4_K_M",
+      "params": "13B",
+      "size_category": "medium",
+      "base": "Vicuna",
+      "enabled": true
+    },
+    {
+      "id": "wizard-vicuna-30b-uncensored-2",
+      "repo_id": "TheBloke/Wizard-Vicuna-30B-Uncensored-GGUF",
+      "format": "gguf",
+      "filename_pattern": "Q4_K_M",
+      "params": "33B",
+      "size_category": "large",
+      "base": "Vicuna",
+      "enabled": true
+    },
+    {
+      "id": "wizard-vicuna-13b-uncensored-2",
+      "repo_id": "QuixiAI/Wizard-Vicuna-13B-Uncensored",
+      "format": "transformers",
+      "filename_pattern": "",
+      "params": "unknown",
+      "size_category": "medium",
+      "base": "Vicuna",
+      "enabled": true
+    },
+    {
+      "id": "wizard-vicuna-13b-uncensored-hf",
+      "repo_id": "TheBloke/Wizard-Vicuna-13B-Uncensored-HF",
+      "format": "transformers",
+      "filename_pattern": "",
+      "params": "unknown",
+      "size_category": "medium",
+      "base": "Vicuna",
+      "enabled": true
+    },
+    {
+      "id": "wizard-vicuna-7b-uncensored-hf",
+      "repo_id": "TheBloke/Wizard-Vicuna-7B-Uncensored-HF",
+      "format": "transformers",
+      "filename_pattern": "",
+      "params": "unknown",
+      "size_category": "medium",
+      "base": "Vicuna",
+      "enabled": true
+    },
+    {
+      "id": "wizard-vicuna-30b-uncensored-3",
+      "repo_id": "TheBloke/Wizard-Vicuna-30B-Uncensored-fp16",
+      "format": "transformers",
+      "filename_pattern": "",
+      "params": "unknown",
+      "size_category": "medium",
+      "base": "Vicuna",
+      "enabled": true
+    },
+    {
+      "id": "wizard-vicuna-30b-uncensored-4",
+      "repo_id": "QuixiAI/Wizard-Vicuna-30B-Uncensored",
+      "format": "transformers",
+      "filename_pattern": "",
+      "params": "unknown",
+      "size_category": "medium",
+      "base": "Vicuna",
+      "enabled": true
+    },
+    {
+      "id": "vicuzard-30b-uncensored",
+      "repo_id": "concedo/Vicuzard-30B-Uncensored",
+      "format": "transformers",
+      "filename_pattern": "",
+      "params": "unknown",
+      "size_category": "medium",
+      "base": "Unknown",
+      "enabled": true
+    },
+    {
+      "id": "wizardvicuna-uncensored-3b-0719",
+      "repo_id": "heegyu/WizardVicuna-Uncensored-3B-0719",
+      "format": "transformers",
+      "filename_pattern": "",
+      "params": "3B",
+      "size_category": "small",
+      "base": "Vicuna",
+      "enabled": true
+    },
+    {
+      "id": "vicuzard-30b-uncensored-instruct-pl-lora-unload",
+      "repo_id": "Aspik101/Vicuzard-30B-Uncensored-instruct-PL-lora_unload",
+      "format": "transformers",
+      "filename_pattern": "",
+      "params": "unknown",
+      "size_category": "medium",
+      "base": "Unknown",
+      "enabled": true
+    },
+    {
+      "id": "wizardvicuna-uncensored-3b-instruct-pl-lora-unload",
+      "repo_id": "Aspik101/WizardVicuna-Uncensored-3B-instruct-PL-lora_unload",
+      "format": "transformers",
+      "filename_pattern": "",
+      "params": "unknown",
+      "size_category": "medium",
+      "base": "Vicuna",
+      "enabled": true
+    },
+    {
+      "id": "wizard-vicuna-7b-uncensored",
+      "repo_id": "TheBloke/Wizard-Vicuna-7B-Uncensored-GPTQ",
+      "format": "gptq",
+      "filename_pattern": "",
+      "params": "unknown",
+      "size_category": "medium",
+      "base": "Vicuna",
+      "enabled": true
+    },
+    {
+      "id": "wizard-vicuna-13b-uncensored-3",
+      "repo_id": "TheBloke/Wizard-Vicuna-13B-Uncensored-GPTQ",
+      "format": "gptq",
+      "filename_pattern": "",
+      "params": "13B",
+      "size_category": "medium",
+      "base": "Vicuna",
+      "enabled": true
+    },
+    {
+      "id": "wizard-vicuna-7b-uncensored-2",
+      "repo_id": "QuixiAI/Wizard-Vicuna-7B-Uncensored",
+      "format": "transformers",
+      "filename_pattern": "",
+      "params": "unknown",
+      "size_category": "medium",
+      "base": "Vicuna",
+      "enabled": true
+    },
+    {
+      "id": "wizard-vicuna-13b-uncensored-4",
+      "repo_id": "TheBloke/Wizard-Vicuna-13B-Uncensored-GGML",
+      "format": "ggml",
+      "filename_pattern": "",
+      "params": "unknown",
+      "size_category": "medium",
+      "base": "Vicuna",
+      "enabled": true
+    },
+    {
+      "id": "wizard-vicuna-30b-uncensored-5",
+      "repo_id": "TheBloke/Wizard-Vicuna-30B-Uncensored-GGML",
+      "format": "ggml",
+      "filename_pattern": "",
+      "params": "unknown",
+      "size_category": "medium",
+      "base": "Vicuna",
+      "enabled": true
+    },
+    {
+      "id": "wizard-vicuna-7b-uncensored-3",
+      "repo_id": "TheBloke/Wizard-Vicuna-7B-Uncensored-GGML",
+      "format": "ggml",
+      "filename_pattern": "",
+      "params": "unknown",
+      "size_category": "medium",
+      "base": "Vicuna",
+      "enabled": true
+    },
+    {
+      "id": "wizard-vicuna-13b-uncensored-superhot-8k",
+      "repo_id": "TheBloke/Wizard-Vicuna-13B-Uncensored-SuperHOT-8K-GGML",
+      "format": "ggml",
+      "filename_pattern": "",
+      "params": "unknown",
+      "size_category": "medium",
+      "base": "Vicuna",
+      "enabled": true
+    },
+    {
+      "id": "wizard-vicuna-13b-uncensored-superhot-8k-2",
+      "repo_id": "TheBloke/Wizard-Vicuna-13B-Uncensored-SuperHOT-8K-GPTQ",
+      "format": "gptq",
+      "filename_pattern": "",
+      "params": "13B",
+      "size_category": "medium",
+      "base": "Vicuna",
+      "enabled": true
+    },
+    {
+      "id": "wizard-vicuna-7b-uncensored-superhot-8k",
+      "repo_id": "TheBloke/Wizard-Vicuna-7B-Uncensored-SuperHOT-8K-GPTQ",
+      "format": "gptq",
+      "filename_pattern": "",
+      "params": "7B",
+      "size_category": "medium",
+      "base": "Vicuna",
+      "enabled": true
+    },
+    {
+      "id": "wizard-vicuna-13b-uncensored-5",
+      "repo_id": "TheBloke/Wizard-Vicuna-13B-Uncensored-AWQ",
+      "format": "awq",
+      "filename_pattern": "",
+      "params": "13B",
+      "size_category": "medium",
+      "base": "Vicuna",
+      "enabled": true
+    },
+    {
+      "id": "wizard-vicuna-13b-uncensored-superhot-8k-3",
+      "repo_id": "TheBloke/Wizard-Vicuna-13B-Uncensored-SuperHOT-8K-fp16",
+      "format": "transformers",
+      "filename_pattern": "",
+      "params": "unknown",
+      "size_category": "medium",
+      "base": "Vicuna",
+      "enabled": true
+    },
+    {
+      "id": "wizard-vicuna-30b-uncensored-6",
+      "repo_id": "TheBloke/Wizard-Vicuna-30B-Uncensored-AWQ",
+      "format": "awq",
+      "filename_pattern": "",
+      "params": "33B",
+      "size_category": "large",
+      "base": "Vicuna",
+      "enabled": true
+    },
+    {
+      "id": "wizard-vicuna-7b-uncensored-superhot-8k-2",
+      "repo_id": "TheBloke/Wizard-Vicuna-7B-Uncensored-SuperHOT-8K-GGML",
+      "format": "ggml",
+      "filename_pattern": "",
+      "params": "unknown",
+      "size_category": "medium",
+      "base": "Vicuna",
+      "enabled": true
+    },
+    {
+      "id": "phi-1-5-wizard-vicuna-uncensored",
+      "repo_id": "jphme/phi-1_5_Wizard_Vicuna_uncensored",
+      "format": "transformers",
+      "filename_pattern": "",
+      "params": "unknown",
+      "size_category": "medium",
+      "base": "Phi-1",
+      "enabled": true
+    },
+    {
+      "id": "wizard-vicuna-7b-uncensored-sharded",
+      "repo_id": "ethan1278/Wizard-Vicuna-7B-Uncensored-sharded-bf16",
+      "format": "transformers",
+      "filename_pattern": "",
+      "params": "unknown",
+      "size_category": "medium",
+      "base": "Vicuna",
+      "enabled": true
+    },
+    {
+      "id": "wizard-vicuna-7b-uncensored-4",
+      "repo_id": "localmodels/Wizard-Vicuna-7B-Uncensored-GPTQ",
+      "format": "gptq",
+      "filename_pattern": "",
+      "params": "unknown",
+      "size_category": "medium",
+      "base": "Vicuna",
+      "enabled": true
+    },
+    {
+      "id": "wizard-vicuna-7b-uncensored-superhot-8k-3",
+      "repo_id": "TheBloke/Wizard-Vicuna-7B-Uncensored-SuperHOT-8K-fp16",
+      "format": "transformers",
+      "filename_pattern": "",
+      "params": "unknown",
+      "size_category": "medium",
+      "base": "Vicuna",
+      "enabled": true
+    },
+    {
+      "id": "wizard-vicuna-7b-uncensored-onnx",
+      "repo_id": "bodaay/Wizard-Vicuna-7B-Uncensored-ONNX",
+      "format": "onnx",
+      "filename_pattern": "",
+      "params": "unknown",
+      "size_category": "medium",
+      "base": "Vicuna",
+      "enabled": true
+    },
+    {
+      "id": "wizard-vicuna-7b-uncensored-superhot-8k-autogptq",
+      "repo_id": "usamakenway/Wizard-Vicuna-7B-Uncensored-SuperHOT-8K-AutoGPTQ",
+      "format": "transformers",
+      "filename_pattern": "",
+      "params": "unknown",
+      "size_category": "medium",
+      "base": "Vicuna",
+      "enabled": true
+    },
+    {
+      "id": "llama2-7b-chat-uncensored-autogptq-wizard-vicuna",
+      "repo_id": "usamakenway/llama2_7b_chat_uncensored-AutoGPTQ_Wizard_Vicuna",
+      "format": "transformers",
+      "filename_pattern": "",
+      "params": "unknown",
+      "size_category": "medium",
+      "base": "Llama-2",
+      "enabled": true
+    },
+    {
+      "id": "wizardvicuna-uncensored-3b-instruct-pl-lora-ggml",
+      "repo_id": "Aspik101/WizardVicuna-Uncensored-3B-instruct-PL-lora_GGML",
+      "format": "transformers",
+      "filename_pattern": "",
+      "params": "unknown",
+      "size_category": "medium",
+      "base": "Vicuna",
+      "enabled": true
+    },
+    {
+      "id": "wizard-vicuna-13b-uncensored-4bit",
+      "repo_id": "localmodels/wizard-vicuna-13b-uncensored-4bit",
+      "format": "transformers",
+      "filename_pattern": "",
+      "params": "unknown",
+      "size_category": "medium",
+      "base": "Vicuna",
+      "enabled": true
+    },
+    {
+      "id": "wizard-vicuna-13b-uncensored-superhot-8k-4",
+      "repo_id": "localmodels/Wizard-Vicuna-13B-Uncensored-SuperHOT-8K-GPTQ",
+      "format": "gptq",
+      "filename_pattern": "",
+      "params": "unknown",
+      "size_category": "medium",
+      "base": "Vicuna",
+      "enabled": true
+    },
+    {
+      "id": "wizard-vicuna-30b-uncensored-lxctx-pi-16384-lora-4bit-32g",
+      "repo_id": "Panchovix/Wizard-Vicuna-30B-Uncensored-lxctx-PI-16384-LoRA-4bit-32g",
+      "format": "transformers",
+      "filename_pattern": "",
+      "params": "unknown",
+      "size_category": "medium",
+      "base": "Vicuna",
+      "enabled": true
+    },
+    {
+      "id": "wizard-vicuna-13b-uncensored-old-ggml",
+      "repo_id": "creative420/Wizard-Vicuna-13b-Uncensored_old_ggml",
+      "format": "transformers",
+      "filename_pattern": "",
+      "params": "unknown",
+      "size_category": "medium",
+      "base": "Vicuna",
+      "enabled": true
+    },
+    {
+      "id": "bloom-560m-trained-on-wizard-vicuna-uncensored",
+      "repo_id": "player1537/Bloom-560m-trained-on-Wizard-Vicuna-Uncensored",
+      "format": "transformers",
+      "filename_pattern": "",
+      "params": "unknown",
+      "size_category": "medium",
+      "base": "Bloom",
+      "enabled": true
+    },
+    {
+      "id": "wizard-vicuna-7b-uncensored-hf-sharded",
+      "repo_id": "hiepnh/Wizard-Vicuna-7B-Uncensored-HF-sharded",
+      "format": "transformers",
+      "filename_pattern": "",
+      "params": "unknown",
+      "size_category": "medium",
+      "base": "Vicuna",
+      "enabled": true
+    },
+    {
+      "id": "vicuna-wizard-7b-uncensored-q3f16-0",
+      "repo_id": "jetro30087/vicuna-Wizard-7B-Uncensored-q3f16_0",
+      "format": "transformers",
+      "filename_pattern": "",
+      "params": "unknown",
+      "size_category": "medium",
+      "base": "Vicuna",
+      "enabled": true
+    },
+    {
+      "id": "vicuna-wizard-7b-uncensored-android-q3f16-0",
+      "repo_id": "jetro30087/vicuna-Wizard-7B-Uncensored-android-q3f16_0",
+      "format": "transformers",
+      "filename_pattern": "",
+      "params": "unknown",
+      "size_category": "medium",
+      "base": "Vicuna",
+      "enabled": true
+    },
+    {
+      "id": "vicuna-wizard-7b-uncensored-android-q4f16-0",
+      "repo_id": "jetro30087/vicuna-Wizard-7B-Uncensored-android-q4f16_0",
+      "format": "transformers",
+      "filename_pattern": "",
+      "params": "unknown",
+      "size_category": "medium",
+      "base": "Vicuna",
+      "enabled": true
+    },
+    {
+      "id": "wizard-vicuna-7b-uncensored-5",
+      "repo_id": "wesley7137/wizard-vicuna-7b-uncensored",
+      "format": "transformers",
+      "filename_pattern": "",
+      "params": "unknown",
+      "size_category": "medium",
+      "base": "Vicuna",
+      "enabled": true
+    },
+    {
+      "id": "wizard-vicuna-13b-uncensored-hf-onnx",
+      "repo_id": "sharpbai/Wizard-Vicuna-13B-Uncensored-HF-onnx",
+      "format": "onnx",
+      "filename_pattern": "",
+      "params": "unknown",
+      "size_category": "medium",
+      "base": "Vicuna",
+      "enabled": true
+    },
+    {
+      "id": "wizard-vicuna-30b-uncensored-lxctx-pi-16384-lora",
+      "repo_id": "Panchovix/Wizard-Vicuna-30B-Uncensored-lxctx-PI-16384-LoRA-fp16",
+      "format": "transformers",
+      "filename_pattern": "",
+      "params": "unknown",
+      "size_category": "medium",
+      "base": "Vicuna",
+      "enabled": true
+    },
+    {
+      "id": "wizardvicuna-uncensored-superhot30b-4bit-128g",
+      "repo_id": "millstein0/WizardVicuna-Uncensored-superHOT30B-4bit-128g-GPTQ",
+      "format": "gptq",
+      "filename_pattern": "",
+      "params": "unknown",
+      "size_category": "medium",
+      "base": "Vicuna",
+      "enabled": true
+    },
+    {
+      "id": "wizard-vicuna-13b-uncensored-autogptq",
+      "repo_id": "usamakenway/Wizard-Vicuna-13B-Uncensored-AutoGPTQ",
+      "format": "transformers",
+      "filename_pattern": "",
+      "params": "unknown",
+      "size_category": "medium",
+      "base": "Vicuna",
+      "enabled": true
+    },
+    {
+      "id": "wizard-vicuna-13b-uncensored-hf-230623-03",
+      "repo_id": "hseokool/Wizard-Vicuna-13B-Uncensored-HF-230623-03",
+      "format": "transformers",
+      "filename_pattern": "",
+      "params": "unknown",
+      "size_category": "medium",
+      "base": "Vicuna",
+      "enabled": true
+    },
+    {
+      "id": "wizard-vicuna-13b-uncensored-spqr",
+      "repo_id": "Honkware/Wizard-Vicuna-13B-Uncensored-SpQR",
+      "format": "transformers",
+      "filename_pattern": "",
+      "params": "unknown",
+      "size_category": "medium",
+      "base": "Vicuna",
+      "enabled": true
+    },
+    {
+      "id": "wizard-vicuna-7b-uncensored-ggml",
+      "repo_id": "localmodels/Wizard-Vicuna-7B-Uncensored-ggml",
+      "format": "ggml",
+      "filename_pattern": "",
+      "params": "unknown",
+      "size_category": "medium",
+      "base": "Vicuna",
+      "enabled": true
+    },
+    {
+      "id": "wizard-vicuna-13b-uncensored-hf-qna",
+      "repo_id": "AnandSingh/Wizard-Vicuna-13B-Uncensored-HF_QnA",
+      "format": "transformers",
+      "filename_pattern": "",
+      "params": "unknown",
+      "size_category": "medium",
+      "base": "Vicuna",
+      "enabled": true
+    },
+    {
+      "id": "wizardvicuna-uncensored-pythia-160m-deduped",
+      "repo_id": "heegyu/WizardVicuna-Uncensored-pythia-160m-deduped",
+      "format": "transformers",
+      "filename_pattern": "",
+      "params": "unknown",
+      "size_category": "medium",
+      "base": "Pythia",
+      "enabled": true
+    },
+    {
+      "id": "wizardvicuna-uncensored-3b-instruct-pl-lora-gptq",
+      "repo_id": "Aspik101/WizardVicuna-Uncensored-3B-instruct-PL-lora_GPTQ",
+      "format": "transformers",
+      "filename_pattern": "",
+      "params": "unknown",
+      "size_category": "medium",
+      "base": "Vicuna",
+      "enabled": true
+    },
+    {
+      "id": "bloom-560m-trained-on-wizard-vicuna-uncensored-summarized",
+      "repo_id": "player1537/Bloom-560m-trained-on-Wizard-Vicuna-Uncensored-Summarized",
+      "format": "transformers",
+      "filename_pattern": "",
+      "params": "unknown",
+      "size_category": "medium",
+      "base": "Bloom",
+      "enabled": true
+    },
+    {
+      "id": "bloom-560m-trained-on-wizard-vicuna-uncensored-trained-on-based",
+      "repo_id": "player1537/Bloom-560m-trained-on-Wizard-Vicuna-Uncensored-trained-on-Based",
+      "format": "transformers",
+      "filename_pattern": "",
+      "params": "unknown",
+      "size_category": "medium",
+      "base": "Bloom",
+      "enabled": true
+    },
+    {
+      "id": "vicuna-wizard-7b-uncensored-linux-q3f16-0",
+      "repo_id": "jetro30087/vicuna-Wizard-7B-Uncensored-linux-q3f16_0",
+      "format": "transformers",
+      "filename_pattern": "",
+      "params": "unknown",
+      "size_category": "medium",
+      "base": "Vicuna",
+      "enabled": true
+    },
+    {
+      "id": "wizard-vicuna-13b-uncensored-6",
+      "repo_id": "wesley7137/wizard-vicuna-13B-uncensored",
+      "format": "transformers",
+      "filename_pattern": "",
+      "params": "unknown",
+      "size_category": "medium",
+      "base": "Vicuna",
+      "enabled": true
+    },
+    {
+      "id": "vicuzard-30b-uncensored-instruct-pl-lora-adapter-model",
+      "repo_id": "Aspik101/Vicuzard-30B-Uncensored-instruct-PL-lora_adapter_model",
+      "format": "transformers",
+      "filename_pattern": "",
+      "params": "unknown",
+      "size_category": "medium",
+      "base": "Unknown",
+      "enabled": true
+    },
+    {
+      "id": "wizardvicuna-uncensored-3b-instruct-pl-lora-adapter-model",
+      "repo_id": "Aspik101/WizardVicuna-Uncensored-3B-instruct-PL-lora_adapter_model",
+      "format": "transformers",
+      "filename_pattern": "",
+      "params": "unknown",
+      "size_category": "medium",
+      "base": "Vicuna",
+      "enabled": true
+    },
+    {
+      "id": "wizard-vicuna-13b-uncensored-nf4",
+      "repo_id": "louisabraham/Wizard-Vicuna-13B-Uncensored-NF4",
+      "format": "transformers",
+      "filename_pattern": "",
+      "params": "unknown",
+      "size_category": "medium",
+      "base": "Vicuna",
+      "enabled": true
+    },
+    {
+      "id": "wizard-vicuna-30b-uncensored-7",
+      "repo_id": "trydex/Wizard-Vicuna-30B-Uncensored",
+      "format": "transformers",
+      "filename_pattern": "",
+      "params": "unknown",
+      "size_category": "medium",
+      "base": "Vicuna",
+      "enabled": true
+    },
+    {
+      "id": "wizardlm-uncensored-supercot-storytelling-30b",
+      "repo_id": "Monero/WizardLM-Uncensored-SuperCOT-StoryTelling-30b",
+      "format": "transformers",
+      "filename_pattern": "",
+      "params": "unknown",
+      "size_category": "medium",
+      "base": "WizardLM",
+      "enabled": true
+    },
+    {
+      "id": "wizardlm-30b-uncensored-guanaco-supercot-30b",
+      "repo_id": "Monero/WizardLM-30B-Uncensored-Guanaco-SuperCOT-30b",
+      "format": "transformers",
+      "filename_pattern": "",
+      "params": "33B",
+      "size_category": "large",
+      "base": "WizardLM",
+      "enabled": true
+    },
+    {
+      "id": "wizardlm-uncensored-supercot-storytelling-30b-2",
+      "repo_id": "TheBloke/WizardLM-Uncensored-SuperCOT-StoryTelling-30B-GPTQ",
+      "format": "gptq",
+      "filename_pattern": "",
+      "params": "33B",
+      "size_category": "large",
+      "base": "WizardLM",
+      "enabled": true
+    },
+    {
+      "id": "mpt-7b-wizardlm-uncensored-storywriter-merge",
+      "repo_id": "TehVenom/MPT-7b-WizardLM_Uncensored-Storywriter-Merge",
+      "format": "transformers",
+      "filename_pattern": "",
+      "params": "unknown",
+      "size_category": "medium",
+      "base": "MPT",
+      "enabled": true
+    },
+    {
+      "id": "wizardlm-uncensored-falcon-40b",
+      "repo_id": "QuixiAI/WizardLM-Uncensored-Falcon-40b",
+      "format": "transformers",
+      "filename_pattern": "",
+      "params": "unknown",
+      "size_category": "medium",
+      "base": "Falcon",
+      "enabled": true
+    },
+    {
+      "id": "wizardlm-uncensored-supercot-storytelling-30b-3",
+      "repo_id": "TheBloke/WizardLM-Uncensored-SuperCOT-StoryTelling-30B-GGML",
+      "format": "ggml",
+      "filename_pattern": "",
+      "params": "unknown",
+      "size_category": "medium",
+      "base": "WizardLM",
+      "enabled": true
+    },
+    {
+      "id": "wizardlm-uncensored-falcon-7b",
+      "repo_id": "TheBloke/WizardLM-Uncensored-Falcon-7B-GPTQ",
+      "format": "gptq",
+      "filename_pattern": "",
+      "params": "7B",
+      "size_category": "medium",
+      "base": "Falcon",
+      "enabled": true
+    },
+    {
+      "id": "wizardlm-uncensored-supercot-storytelling-30b-superhot-8k",
+      "repo_id": "TheBloke/WizardLM-Uncensored-SuperCOT-StoryTelling-30B-SuperHOT-8K-GPTQ",
+      "format": "gptq",
+      "filename_pattern": "",
+      "params": "33B",
+      "size_category": "large",
+      "base": "WizardLM",
+      "enabled": true
+    },
+    {
+      "id": "wizardlm-uncensored-supercot-storytelling-30b-superhot-8k-2",
+      "repo_id": "TheBloke/WizardLM-Uncensored-SuperCOT-StoryTelling-30B-SuperHOT-8K-GGML",
+      "format": "ggml",
+      "filename_pattern": "",
+      "params": "unknown",
+      "size_category": "medium",
+      "base": "WizardLM",
+      "enabled": true
+    },
+    {
+      "id": "wizardlm-uncensored-falcon-7b-2",
+      "repo_id": "QuixiAI/WizardLM-Uncensored-Falcon-7b",
+      "format": "transformers",
+      "filename_pattern": "",
+      "params": "unknown",
+      "size_category": "medium",
+      "base": "Falcon",
+      "enabled": true
+    },
+    {
+      "id": "wizardlm-uncensored-falcon-40b-2",
+      "repo_id": "TheBloke/WizardLM-Uncensored-Falcon-40B-GPTQ",
+      "format": "gptq",
+      "filename_pattern": "",
+      "params": "42B",
+      "size_category": "large",
+      "base": "Falcon",
+      "enabled": true
+    },
+    {
+      "id": "wizardlm-uncensored-scot-st-30b-q3-k-s",
+      "repo_id": "RachidAR/WizardLM-Uncensored-SCOT-ST-30B-Q3_K_S-GGML",
+      "format": "ggml",
+      "filename_pattern": "",
+      "params": "unknown",
+      "size_category": "medium",
+      "base": "WizardLM",
+      "enabled": true
+    },
+    {
+      "id": "wizardlm-uncensored-falcon-7b-3",
+      "repo_id": "TheBloke/WizardLM-Uncensored-Falcon-7B-GGML",
+      "format": "ggml",
+      "filename_pattern": "",
+      "params": "unknown",
+      "size_category": "medium",
+      "base": "Falcon",
+      "enabled": true
+    },
+    {
+      "id": "wizardlm-uncensored-falcon-7b-sharded",
+      "repo_id": "rnosov/WizardLM-Uncensored-Falcon-7b-sharded",
+      "format": "transformers",
+      "filename_pattern": "",
+      "params": "unknown",
+      "size_category": "medium",
+      "base": "Falcon",
+      "enabled": true
+    },
+    {
+      "id": "wizardlm-uncensored-scot-storytelling-30b-q2-k",
+      "repo_id": "RachidAR/WizardLM-Uncensored-SCOT-StoryTelling-30B-Q2_K-GGML",
+      "format": "ggml",
+      "filename_pattern": "",
+      "params": "unknown",
+      "size_category": "medium",
+      "base": "WizardLM",
+      "enabled": true
+    },
+    {
+      "id": "wizardlm-uncensored-falcon-7b-sharded-2",
+      "repo_id": "nferroukhi/WizardLM-Uncensored-Falcon-7b-sharded-bf16",
+      "format": "transformers",
+      "filename_pattern": "",
+      "params": "unknown",
+      "size_category": "medium",
+      "base": "Falcon",
+      "enabled": true
+    },
+    {
+      "id": "wizardlm-uncensored-falcon-40b-3",
+      "repo_id": "TheBloke/WizardLM-Uncensored-Falcon-40B-GGML",
+      "format": "ggml",
+      "filename_pattern": "",
+      "params": "unknown",
+      "size_category": "medium",
+      "base": "Falcon",
+      "enabled": true
+    },
+    {
+      "id": "wizardlm-uncensored-supercot-storytelling-30b-superhot-8k-3",
+      "repo_id": "Panchovix/WizardLM-Uncensored-SuperCOT-StoryTelling-30b-SuperHOT-8k",
+      "format": "transformers",
+      "filename_pattern": "",
+      "params": "unknown",
+      "size_category": "medium",
+      "base": "WizardLM",
+      "enabled": true
+    },
+    {
+      "id": "wizardlm-uncensored-scot-st-30b-q4-k-s",
+      "repo_id": "RachidAR/WizardLM-Uncensored-SCOT-ST-30B-Q4_K_S-GGML",
+      "format": "ggml",
+      "filename_pattern": "",
+      "params": "unknown",
+      "size_category": "medium",
+      "base": "WizardLM",
+      "enabled": true
+    },
+    {
+      "id": "wizardlm-uncensored-supercot-storytelling-30b-superhot-8k-4bit-32g",
+      "repo_id": "Panchovix/WizardLM-Uncensored-SuperCOT-StoryTelling-30b-SuperHOT-8k-4bit-32g",
+      "format": "transformers",
+      "filename_pattern": "",
+      "params": "unknown",
+      "size_category": "medium",
+      "base": "WizardLM",
+      "enabled": true
+    },
+    {
+      "id": "wizardlm-uncensored-supercot-storytelling-30b-superhot-8k-4",
+      "repo_id": "TheBloke/WizardLM-Uncensored-SuperCOT-StoryTelling-30B-SuperHOT-8K-fp16",
+      "format": "transformers",
+      "filename_pattern": "",
+      "params": "unknown",
+      "size_category": "medium",
+      "base": "WizardLM",
+      "enabled": true
+    },
+    {
+      "id": "wizard-uncensored-ggml-new-format",
+      "repo_id": "bumpsh/Wizard-uncensored-ggml-new-format",
+      "format": "ggml",
+      "filename_pattern": "",
+      "params": "unknown",
+      "size_category": "medium",
+      "base": "WizardLM",
+      "enabled": true
+    },
+    {
+      "id": "wizardlm-uncensored-falcon-7b-sharded-3",
+      "repo_id": "ethan1278/WizardLM-Uncensored-Falcon-7b-sharded-bf16",
+      "format": "transformers",
+      "filename_pattern": "",
+      "params": "unknown",
+      "size_category": "medium",
+      "base": "Falcon",
+      "enabled": true
+    },
+    {
+      "id": "luna-ai-llama2-uncensored",
+      "repo_id": "TheBloke/Luna-AI-Llama2-Uncensored-GGUF",
+      "format": "gguf",
+      "filename_pattern": "Q4_K_M",
+      "params": "7B",
+      "size_category": "medium",
+      "base": "Llama-2",
+      "enabled": true
+    },
+    {
+      "id": "guanaco-7b-uncensored",
+      "repo_id": "TheBloke/Guanaco-7B-Uncensored-GGUF",
+      "format": "gguf",
+      "filename_pattern": "Q4_K_M",
+      "params": "7B",
+      "size_category": "medium",
+      "base": "Guanaco",
+      "enabled": true
+    },
+    {
+      "id": "guanaco-3b-uncensored-v2",
+      "repo_id": "Fredithefish/Guanaco-3B-Uncensored-v2",
+      "format": "transformers",
+      "filename_pattern": "",
+      "params": "3B",
+      "size_category": "small",
+      "base": "Guanaco",
+      "enabled": true
+    },
+    {
+      "id": "guanaco-13b-uncensored",
+      "repo_id": "TheBloke/Guanaco-13B-Uncensored-GGUF",
+      "format": "gguf",
+      "filename_pattern": "Q4_K_M",
+      "params": "13B",
+      "size_category": "medium",
+      "base": "Guanaco",
+      "enabled": true
+    },
+    {
+      "id": "luna-ai-llama2-uncensored-2",
+      "repo_id": "Tap-M/Luna-AI-Llama2-Uncensored",
+      "format": "transformers",
+      "filename_pattern": "",
+      "params": "unknown",
+      "size_category": "medium",
+      "base": "Llama-2",
+      "enabled": true
+    },
+    {
+      "id": "luna-ai-llama2-uncensored-fp16",
+      "repo_id": "Tap-M/Luna-AI-Llama2-Uncensored-FP16",
+      "format": "transformers",
+      "filename_pattern": "",
+      "params": "unknown",
+      "size_category": "medium",
+      "base": "Llama-2",
+      "enabled": true
+    },
+    {
+      "id": "guanaco-13b-uncensored-2",
+      "repo_id": "Fredithefish/Guanaco-13B-Uncensored",
+      "format": "transformers",
+      "filename_pattern": "",
+      "params": "unknown",
+      "size_category": "medium",
+      "base": "Guanaco",
+      "enabled": true
+    },
+    {
+      "id": "l2-7b-base-guanaco-uncensored",
+      "repo_id": "Lazycuber/L2-7b-Base-Guanaco-Uncensored",
+      "format": "transformers",
+      "filename_pattern": "",
+      "params": "unknown",
+      "size_category": "medium",
+      "base": "Guanaco",
+      "enabled": true
+    },
+    {
+      "id": "guanaco-7b-uncensored-2",
+      "repo_id": "Fredithefish/Guanaco-7B-Uncensored",
+      "format": "transformers",
+      "filename_pattern": "",
+      "params": "unknown",
+      "size_category": "medium",
+      "base": "Guanaco",
+      "enabled": true
+    },
+    {
+      "id": "guanaco-3b-uncensored",
+      "repo_id": "Fredithefish/Guanaco-3B-Uncensored",
+      "format": "transformers",
+      "filename_pattern": "",
+      "params": "3B",
+      "size_category": "small",
+      "base": "Guanaco",
+      "enabled": true
+    },
+    {
+      "id": "luna-ai-llama2-uncensored-3",
+      "repo_id": "TheBloke/Luna-AI-Llama2-Uncensored-GGML",
+      "format": "ggml",
+      "filename_pattern": "",
+      "params": "unknown",
+      "size_category": "medium",
+      "base": "Llama-2",
+      "enabled": true
+    },
+    {
+      "id": "luna-ai-llama2-uncensored-4",
+      "repo_id": "TheBloke/Luna-AI-Llama2-Uncensored-GPTQ",
+      "format": "gptq",
+      "filename_pattern": "",
+      "params": "7B",
+      "size_category": "medium",
+      "base": "Llama-2",
+      "enabled": true
+    },
+    {
+      "id": "guanaco-3b-uncensored-v2-2",
+      "repo_id": "TheBloke/Guanaco-3B-Uncensored-v2-GPTQ",
+      "format": "gptq",
+      "filename_pattern": "",
+      "params": "3B",
+      "size_category": "small",
+      "base": "Guanaco",
+      "enabled": true
+    },
+    {
+      "id": "guanaco-7b-uncensored-3",
+      "repo_id": "TheBloke/Guanaco-7B-Uncensored-GPTQ",
+      "format": "gptq",
+      "filename_pattern": "",
+      "params": "7B",
+      "size_category": "medium",
+      "base": "Guanaco",
+      "enabled": true
+    },
+    {
+      "id": "guanaco-13b-uncensored-3",
+      "repo_id": "TheBloke/Guanaco-13B-Uncensored-AWQ",
+      "format": "awq",
+      "filename_pattern": "",
+      "params": "13B",
+      "size_category": "medium",
+      "base": "Guanaco",
+      "enabled": true
+    },
+    {
+      "id": "guanaco-7b-uncensored-4",
+      "repo_id": "TheBloke/Guanaco-7B-Uncensored-AWQ",
+      "format": "awq",
+      "filename_pattern": "",
+      "params": "7B",
+      "size_category": "medium",
+      "base": "Guanaco",
+      "enabled": true
+    },
+    {
+      "id": "luna-ai-llama2-uncensored-5",
+      "repo_id": "TheBloke/Luna-AI-Llama2-Uncensored-AWQ",
+      "format": "awq",
+      "filename_pattern": "",
+      "params": "7B",
+      "size_category": "medium",
+      "base": "Llama-2",
+      "enabled": true
+    },
+    {
+      "id": "guanaco-13b-uncensored-4",
+      "repo_id": "TheBloke/Guanaco-13B-Uncensored-GPTQ",
+      "format": "gptq",
+      "filename_pattern": "",
+      "params": "13B",
+      "size_category": "medium",
+      "base": "Guanaco",
+      "enabled": true
+    },
+    {
+      "id": "guanaco-13b-uncensored-5",
+      "repo_id": "actionpace/Guanaco-13B-Uncensored",
+      "format": "transformers",
+      "filename_pattern": "",
+      "params": "13B",
+      "size_category": "medium",
+      "base": "Guanaco",
+      "enabled": true
+    },
+    {
+      "id": "guanaco-3b-uncensored-v2-3",
+      "repo_id": "TheBloke/Guanaco-3B-Uncensored-v2-GGML",
+      "format": "ggml",
+      "filename_pattern": "",
+      "params": "unknown",
+      "size_category": "medium",
+      "base": "Guanaco",
+      "enabled": true
+    },
+    {
+      "id": "mlc-chat-luna-ai-llama2-7b-chat-uncensored-q3f16-1",
+      "repo_id": "acalatrava/mlc-chat-luna-ai-llama2-7b-chat-uncensored-q3f16_1",
+      "format": "transformers",
+      "filename_pattern": "",
+      "params": "unknown",
+      "size_category": "medium",
+      "base": "Llama-2",
+      "enabled": true
+    },
+    {
+      "id": "luna-ai-llama2-uncensored-6",
+      "repo_id": "Araki/Luna-AI-Llama2-Uncensored-GGML",
+      "format": "ggml",
+      "filename_pattern": "",
+      "params": "unknown",
+      "size_category": "medium",
+      "base": "Llama-2",
+      "enabled": true
+    },
+    {
+      "id": "luna-ai-llama2-uncensored-7",
+      "repo_id": "uralstech/Luna-AI-Llama2-Uncensored-GGUF",
+      "format": "gguf",
+      "filename_pattern": "Q4_K_M",
+      "params": "unknown",
+      "size_category": "medium",
+      "base": "Llama-2",
+      "enabled": true
+    },
+    {
+      "id": "luna-ai-llama2-uncensored-q3f16-1",
+      "repo_id": "numen-tech/Luna-AI-Llama2-Uncensored-q3f16_1",
+      "format": "transformers",
+      "filename_pattern": "",
+      "params": "unknown",
+      "size_category": "medium",
+      "base": "Llama-2",
+      "enabled": true
+    },
+    {
+      "id": "luna-ai-llama2-uncensored-q4f16-1",
+      "repo_id": "numen-tech/Luna-AI-Llama2-Uncensored-q4f16_1",
+      "format": "transformers",
+      "filename_pattern": "",
+      "params": "unknown",
+      "size_category": "medium",
+      "base": "Llama-2",
+      "enabled": true
+    },
+    {
+      "id": "luna-ai-llama2-uncensored-w3a16g128asym",
+      "repo_id": "numen-tech/Luna-AI-Llama2-Uncensored-w3a16g128asym",
+      "format": "transformers",
+      "filename_pattern": "",
+      "params": "unknown",
+      "size_category": "medium",
+      "base": "Llama-2",
+      "enabled": true
+    },
+    {
+      "id": "luna-ai-llama2-uncensored-w2a16g64asym",
+      "repo_id": "numen-tech/Luna-AI-Llama2-Uncensored-w2a16g64asym",
+      "format": "transformers",
+      "filename_pattern": "",
+      "params": "unknown",
+      "size_category": "medium",
+      "base": "Llama-2",
+      "enabled": true
+    },
+    {
+      "id": "luna-ai-llama2-uncensored-w4a16g128asym",
+      "repo_id": "numen-tech/Luna-AI-Llama2-Uncensored-w4a16g128asym",
+      "format": "transformers",
+      "filename_pattern": "",
+      "params": "unknown",
+      "size_category": "medium",
+      "base": "Llama-2",
+      "enabled": true
+    },
+    {
+      "id": "dolphin-mistral-glm-4-7-flash-24b-venice-edition-thinking-uncensored",
+      "repo_id": "mradermacher/Dolphin-Mistral-GLM-4.7-Flash-24B-Venice-Edition-Thinking-Uncensored-GGUF",
+      "format": "gguf",
+      "filename_pattern": "Q4_K_M",
+      "params": "24B",
+      "size_category": "large",
+      "base": "GLM-4.7",
+      "enabled": true
+    },
+    {
+      "id": "dolphin-mistral-glm-4-7-flash-24b-venice-edition-thinking-uncensored-2",
+      "repo_id": "DavidAU/Dolphin-Mistral-GLM-4.7-Flash-24B-Venice-Edition-Thinking-Uncensored",
+      "format": "transformers",
+      "filename_pattern": "",
+      "params": "24B",
+      "size_category": "large",
+      "base": "GLM-4.7",
+      "enabled": true
+    },
+    {
+      "id": "anita-next-24b-dolphin-mistral-uncensored-ita",
+      "repo_id": "m-polignano/ANITA-NEXT-24B-Dolphin-Mistral-UNCENSORED-ITA",
+      "format": "transformers",
+      "filename_pattern": "",
+      "params": "24B",
+      "size_category": "large",
+      "base": "Mistral",
+      "enabled": true
+    },
+    {
+      "id": "dirty-muse-writer-v01-uncensored-erotica-nsfw",
+      "repo_id": "mradermacher/Dirty-Muse-Writer-v01-Uncensored-Erotica-NSFW-i1-GGUF",
+      "format": "gguf",
+      "filename_pattern": "Q4_K_M",
+      "params": "9B",
+      "size_category": "medium",
+      "base": "Unknown",
+      "enabled": true
+    },
+    {
+      "id": "phi-3-5-mini-instruct-uncensored",
+      "repo_id": "bartowski/Phi-3.5-mini-instruct_Uncensored-GGUF",
+      "format": "gguf",
+      "filename_pattern": "Q4_K_M",
+      "params": "4B",
+      "size_category": "medium",
+      "base": "Phi-3.5",
+      "enabled": true
+    },
+    {
+      "id": "uncensored-1b-creative-writing-rp",
+      "repo_id": "pancho101/Uncensored-1b-Creative_Writing_RP-GGUF",
+      "format": "gguf",
+      "filename_pattern": "Q4_K_M",
+      "params": "1B",
+      "size_category": "small",
+      "base": "Unknown",
+      "enabled": true
+    },
+    {
+      "id": "mn-captainerisnebula-12b-chimera-v1-1-heretic-uncensored-abliterated",
+      "repo_id": "mradermacher/MN-CaptainErisNebula-12B-Chimera-v1.1-heretic-uncensored-abliterated-i1-GGUF",
+      "format": "gguf",
+      "filename_pattern": "Q4_K_M",
+      "params": "12B",
+      "size_category": "medium",
+      "base": "Unknown",
+      "enabled": true
+    },
+    {
+      "id": "uncensored-frank-7b",
+      "repo_id": "ajibawa-2023/Uncensored-Frank-7B",
+      "format": "transformers",
+      "filename_pattern": "",
+      "params": "unknown",
+      "size_category": "medium",
+      "base": "Unknown",
+      "enabled": true
+    },
+    {
+      "id": "uncensored-frank-13b",
+      "repo_id": "ajibawa-2023/Uncensored-Frank-13B",
+      "format": "transformers",
+      "filename_pattern": "",
+      "params": "unknown",
+      "size_category": "medium",
+      "base": "Unknown",
+      "enabled": true
+    },
+    {
+      "id": "redtulu-uncensored-3b-0719",
+      "repo_id": "heegyu/RedTulu-Uncensored-3B-0719",
+      "format": "transformers",
+      "filename_pattern": "",
+      "params": "unknown",
+      "size_category": "medium",
+      "base": "Unknown",
+      "enabled": true
+    },
+    {
+      "id": "uncensored-frank-33b",
+      "repo_id": "ajibawa-2023/Uncensored-Frank-33B",
+      "format": "transformers",
+      "filename_pattern": "",
+      "params": "unknown",
+      "size_category": "medium",
+      "base": "Unknown",
+      "enabled": true
+    },
+    {
+      "id": "mn-12b-mag-mell-r1-uncensored",
+      "repo_id": "mradermacher/MN-12B-Mag-Mell-R1-Uncensored-GGUF",
+      "format": "gguf",
+      "filename_pattern": "Q4_K_M",
+      "params": "12B",
+      "size_category": "medium",
+      "base": "Unknown",
+      "enabled": true
+    },
+    {
+      "id": "venice-uncensored",
+      "repo_id": "AskVenice/venice-uncensored",
+      "format": "transformers",
+      "filename_pattern": "",
+      "params": "24B",
+      "size_category": "large",
+      "base": "Unknown",
+      "enabled": true
+    },
+    {
+      "id": "uncensored-1b-creative-writing-rp-2",
+      "repo_id": "Novaciano/Uncensored-1b-Creative_Writing_RP-GGUF",
+      "format": "gguf",
+      "filename_pattern": "Q4_K_M",
+      "params": "1B",
+      "size_category": "small",
+      "base": "Unknown",
+      "enabled": true
+    },
+    {
+      "id": "phi-2-uncensored",
+      "repo_id": "afrideva/phi-2-uncensored-GGUF",
+      "format": "gguf",
+      "filename_pattern": "Q4_K_M",
+      "params": "3B",
+      "size_category": "small",
+      "base": "Phi-2",
+      "enabled": true
+    },
+    {
+      "id": "uncensored-nanbeige-4-1-3b-q6-k",
+      "repo_id": "NeshVerse/Uncensored_Nanbeige-4.1-3B-Q6_K-GGUF",
+      "format": "gguf",
+      "filename_pattern": "Q6_K",
+      "params": "4B",
+      "size_category": "medium",
+      "base": "Nanbeige",
+      "enabled": true
+    },
+    {
+      "id": "uncensored-nanbeige-4-1-3b-q8-0",
+      "repo_id": "NeshVerse/Uncensored_Nanbeige-4.1-3B-Q8_0-GGUF",
+      "format": "gguf",
+      "filename_pattern": "Q8_0",
+      "params": "4B",
+      "size_category": "medium",
+      "base": "Nanbeige",
+      "enabled": true
+    },
+    {
+      "id": "uncensored-nanbeige-4-1-3b",
+      "repo_id": "NeshVerse/Uncensored_Nanbeige-4.1-3B",
+      "format": "transformers",
+      "filename_pattern": "",
+      "params": "4B",
+      "size_category": "medium",
+      "base": "Nanbeige",
+      "enabled": true
+    },
+    {
+      "id": "dukunlm-7b-v1-0-uncensored",
+      "repo_id": "azale-ai/DukunLM-7B-V1.0-Uncensored",
+      "format": "transformers",
+      "filename_pattern": "",
+      "params": "7B",
+      "size_category": "medium",
+      "base": "Unknown",
+      "enabled": true
+    },
+    {
+      "id": "mn-12b-mag-mell-r1-uncensored-2",
+      "repo_id": "Naphula/MN-12B-Mag-Mell-R1-Uncensored",
+      "format": "transformers",
+      "filename_pattern": "",
+      "params": "12B",
+      "size_category": "medium",
+      "base": "Unknown",
+      "enabled": true
+    },
+    {
+      "id": "dukunlm-7b-v1-0-uncensored-sharded",
+      "repo_id": "azale-ai/DukunLM-7B-V1.0-Uncensored-sharded",
+      "format": "transformers",
+      "filename_pattern": "",
+      "params": "7B",
+      "size_category": "medium",
+      "base": "Unknown",
+      "enabled": true
+    },
+    {
+      "id": "roleplai-13b-v1-uncensored",
+      "repo_id": "roleplaiapp/roleplai-13b-v1-uncensored",
+      "format": "transformers",
+      "filename_pattern": "",
+      "params": "unknown",
+      "size_category": "medium",
+      "base": "Unknown",
+      "enabled": true
+    },
+    {
+      "id": "dukunlm-13b-v1-0-uncensored-sharded",
+      "repo_id": "azale-ai/DukunLM-13B-V1.0-Uncensored-sharded",
+      "format": "transformers",
+      "filename_pattern": "",
+      "params": "13B",
+      "size_category": "medium",
+      "base": "Unknown",
+      "enabled": true
+    },
+    {
+      "id": "dukunlm-13b-v1-0-uncensored",
+      "repo_id": "azale-ai/DukunLM-13B-V1.0-Uncensored",
+      "format": "transformers",
+      "filename_pattern": "",
+      "params": "13B",
+      "size_category": "medium",
+      "base": "Unknown",
+      "enabled": true
+    },
+    {
+      "id": "phi-3-mini-4k-instruct-uncensored",
+      "repo_id": "spkgyk/Phi-3-mini-4k-instruct-uncensored",
+      "format": "transformers",
+      "filename_pattern": "",
+      "params": "4B",
+      "size_category": "medium",
+      "base": "Phi-3",
+      "enabled": true
+    },
+    {
+      "id": "uncensored-frank-7b-2",
+      "repo_id": "TheBloke/Uncensored-Frank-7B-AWQ",
+      "format": "awq",
+      "filename_pattern": "",
+      "params": "7B",
+      "size_category": "medium",
+      "base": "Unknown",
+      "enabled": true
+    },
+    {
+      "id": "dukunlm-uncensored-7b",
+      "repo_id": "azale-ai/DukunLM-Uncensored-7B",
+      "format": "transformers",
+      "filename_pattern": "",
+      "params": "unknown",
+      "size_category": "medium",
+      "base": "Unknown",
+      "enabled": true
+    },
+    {
+      "id": "uncensored-frank-7b-3",
+      "repo_id": "TheBloke/Uncensored-Frank-7B-GPTQ",
+      "format": "gptq",
+      "filename_pattern": "",
+      "params": "7B",
+      "size_category": "medium",
+      "base": "Unknown",
+      "enabled": true
+    },
+    {
+      "id": "medran-e4b-uncensored-mlx-quantized",
+      "repo_id": "drwlf/MedraN-E4B-Uncensored-MLX-Quantized",
+      "format": "mlx",
+      "filename_pattern": "",
+      "params": "unknown",
+      "size_category": "medium",
+      "base": "Unknown",
+      "enabled": true
+    },
+    {
+      "id": "uncensored",
+      "repo_id": "troyweber23/uncensored",
+      "format": "transformers",
+      "filename_pattern": "",
+      "params": "unknown",
+      "size_category": "medium",
+      "base": "Unknown",
+      "enabled": true
+    },
+    {
+      "id": "ggml-wizard-13b-uncensored",
+      "repo_id": "savvamadar/ggml-wizard-13b-uncensored",
+      "format": "transformers",
+      "filename_pattern": "",
+      "params": "unknown",
+      "size_category": "medium",
+      "base": "WizardLM",
+      "enabled": true
+    },
+    {
+      "id": "dukunlm-7b-v1-0-uncensored-2",
+      "repo_id": "NikolayKozloff/DukunLM-7B-V1.0-Uncensored",
+      "format": "transformers",
+      "filename_pattern": "",
+      "params": "unknown",
+      "size_category": "medium",
+      "base": "Unknown",
+      "enabled": true
+    },
+    {
+      "id": "dukunlm-13b-v1-0-uncensored-2",
+      "repo_id": "NikolayKozloff/DukunLM-13B-V1.0-Uncensored",
+      "format": "transformers",
+      "filename_pattern": "",
+      "params": "unknown",
+      "size_category": "medium",
+      "base": "Unknown",
+      "enabled": true
+    },
+    {
+      "id": "vicuna-uncensored",
+      "repo_id": "calebboud/vicuna_uncensored",
+      "format": "transformers",
+      "filename_pattern": "",
+      "params": "unknown",
+      "size_category": "medium",
+      "base": "Vicuna",
+      "enabled": true
+    },
+    {
+      "id": "dolphin-x1-12b-exl2",
+      "repo_id": "dphn/Dolphin-X1-12B-exl2-6bpw",
+      "format": "exl2",
+      "filename_pattern": "",
+      "params": "12B",
+      "size_category": "medium",
+      "base": "Unknown",
+      "enabled": false,
+      "notes": "EXL2 format - requires exllamav2, not supported by benchmark"
+    },
+    {
+      "id": "dolphin3.0-llama3.2-3b-mlc",
+      "repo_id": "Leyten/Dolphin3.0-Llama3.2-3B-q4f16_1-MLC",
+      "format": "mlc",
+      "filename_pattern": "",
+      "params": "3B",
+      "size_category": "small",
+      "base": "Llama-3.2",
+      "enabled": false,
+      "notes": "MLC format - requires MLC-LLM, not supported by benchmark"
+    },
+    {
+      "id": "dolphin3.0-qwen2.5-1.5b-onnx",
+      "repo_id": "d1g1mortal/Dolphin3.0-Qwen2.5-1.5B-ONNX",
+      "format": "onnx",
+      "filename_pattern": "",
+      "params": "1.5B",
+      "size_category": "small",
+      "base": "Qwen-2.5",
+      "enabled": false,
+      "notes": "ONNX format - requires onnxruntime, not supported by benchmark"
+    },
+    {
+      "id": "dolphin-2.9.1-llama3-70b-nvfp4",
+      "repo_id": "Shifusen/dolphin-2.9.1-llama-3-70b-NVFP4-vllm",
+      "format": "nvfp4",
+      "filename_pattern": "",
+      "params": "41B",
+      "size_category": "xlarge",
+      "base": "Llama-3",
+      "enabled": false,
+      "notes": "NVFP4/vLLM format - requires vLLM, not supported by benchmark"
+    }
+  ]
+}
