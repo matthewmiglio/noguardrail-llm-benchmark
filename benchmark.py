@@ -398,12 +398,23 @@ def init_results_csv(results_path):
         writer.writeheader()
 
 
-def write_result_row(results_path, row):
-    """Append a single result row to the CSV."""
-    results_path.parent.mkdir(parents=True, exist_ok=True)
-    with open(results_path, "a", newline="", encoding="utf-8") as f:
-        writer = csv.DictWriter(f, fieldnames=RESULT_FIELDS)
-        writer.writerow(row)
+def write_result_row(results_path, row, max_retries=60, retry_delay=5):
+    """Append a single result row to the CSV. Retries on drive disconnect."""
+    for attempt in range(max_retries):
+        try:
+            results_path.parent.mkdir(parents=True, exist_ok=True)
+            with open(results_path, "a", newline="", encoding="utf-8") as f:
+                writer = csv.DictWriter(f, fieldnames=RESULT_FIELDS)
+                writer.writerow(row)
+            return
+        except (FileNotFoundError, OSError) as e:
+            if attempt < max_retries - 1:
+                print(f"\n  [WARN] Write failed (attempt {attempt+1}/{max_retries}): {e}")
+                print(f"  [WARN] Drive may have disconnected. Retrying in {retry_delay}s...")
+                time.sleep(retry_delay)
+            else:
+                print(f"\n  [ERROR] Write failed after {max_retries} attempts. Giving up.")
+                raise
 
 
 def get_completed_pairs(results_path):
